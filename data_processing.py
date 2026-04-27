@@ -16,25 +16,21 @@ def inspect_data(df):
 
 
 def clean_data(df):
-    # Remove duplicates
     df = df.drop_duplicates()
 
-    # Standardize text columns
     text_cols = ['brand', 'model', 'color', 'state', 'country', 'title_status', 'condition']
     for col in text_cols:
         if col in df.columns:
             df[col] = df[col].astype(str).str.lower().str.strip()
 
-    # Remove unnecessary columns
     drop_cols = ['vin', 'lot', 'Unnamed: 0']
     df = df.drop(columns=[col for col in drop_cols if col in df.columns])
-
-    # Remove unrealistic values (outliers)
+    
+    df = df[df['price'] > 0]
     df = df[df['price'] < 100000]
     df = df[df['mileage'] < 500000]
     df = df[df['year'] > 1980]
 
-    # Handle missing values
     for col in df.columns:
         if pd.api.types.is_numeric_dtype(df[col]):
             df[col] = df[col].fillna(df[col].mean())
@@ -69,21 +65,16 @@ def save_data(df, path):
 if __name__ == "__main__":
     file_path = Path(__file__).resolve().parent /  "data" / "Cars.csv"
 
-    # Load
     df = load_data(file_path)
 
-    # Inspect
     inspect_data(df)
 
-    # Clean
     df = clean_data(df)
     save_data(df, "data/clean_no_encoding.csv")
 
-    # Encode + Normalize
     df = encode_data(df)
     df = normalize_data(df)
 
-    # Save final
     save_data(df, "data/clean.csv")
 
-    print("\n✅ Data cleaning completed successfully!")
+    print("\n Data cleaning completed successfully!")

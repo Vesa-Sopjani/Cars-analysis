@@ -139,10 +139,8 @@ price,brand,model,year,title_status,mileage,color,state,country,condition
 32012,chevrolet,1500,2017,clean vehicle,46091.0,white,michigan,usa,2 days left
 6800,dodge,dart,2016,clean vehicle,49033.0,black,michigan,usa,2 days left
 4260,dodge,mpv,2018,clean vehicle,33957.0,gray,florida,usa,16 hours left
-0,dodge,van,2008,salvage insurance,177948.0,orange,utah,usa,2 days left
 31802,chevrolet,2500,2017,clean vehicle,19845.0,silver,michigan,usa,20 hours left
 7210,dodge,doors,2018,clean vehicle,38910.0,black,florida,usa,16 hours left
-0,dodge,door,2014,salvage insurance,123660.0,silver,utah,usa,2 days left
 28402,chevrolet,1500,2017,clean vehicle,31234.0,black,michigan,usa,2 days left
 6800,dodge,doors,2018,clean vehicle,36767.0,gray,florida,usa,16 hours left
 33300,cadillac,esv,2015,clean vehicle,57932.0,gray,washington,usa,21 hours left
@@ -194,7 +192,6 @@ price,brand,model,year,title_status,mileage,color,state,country,condition
 4200,ford,door,2017,clean vehicle,60219.0,red,texas,usa,2 days left
 17400,ford,door,2011,clean vehicle,135077.0,red,georgia,usa,21 hours left
 32001,chevrolet,door,2016,clean vehicle,32058.0,black,michigan,usa,2 days left
-0,ford,mpv,2017,clean vehicle,76858.0,white,texas,usa,2 days left
 15700,ford,cab,2011,clean vehicle,309564.0,white,south carolina,usa,21 hours left
 31009,chevrolet,door,2016,clean vehicle,33928.0,white,michigan,usa,2 days left
 3740,ford,wagon,2017,clean vehicle,90618.0,white,texas,usa,2 days left
@@ -283,19 +280,15 @@ price,brand,model,year,title_status,mileage,color,state,country,condition
 11760,ford,cab,2017,clean vehicle,30553.0,white,texas,usa,2 days left
 31700,dodge,durango,2019,clean vehicle,26549.0,red,ohio,usa,21 hours left
 25,dodge,door,2007,salvage insurance,160528.0,dark blue,minnesota,usa,17 hours left
-0,ford,door,2000,salvage insurance,124969.0,black,oklahoma,usa,17 hours left
 7340,ford,doors,2019,clean vehicle,15854.0,gray,florida,usa,17 hours left
 8200,hyundai,door,2017,clean vehicle,56690.0,white,connecticut,usa,5 hours left
 3000,kia,door,2013,clean vehicle,97142.0,silver,missouri,usa,9 days left
 6530,jeep,mpv,2019,clean vehicle,10185.0,black,georgia,usa,17 hours left
-0,mazda,door,2009,salvage insurance,117541.0,gray,indiana,usa,16 hours left
 12700,kia,soul,2019,clean vehicle,23514.0,silver,california,usa,10 days left
 13800,kia,sorento,2017,clean vehicle,86959.0,gray,north carolina,usa,3 days left
-0,chevrolet,pickup,1998,salvage insurance,258631.0,gray,texas,usa,17 hours left
 725,ford,door,2017,salvage insurance,67279.0,gray,virginia,usa,2 days left
 7400,ford,doors,2019,clean vehicle,16482.0,gray,florida,usa,17 hours left
 9800,hyundai,elantra,2017,clean vehicle,35687.0,red,connecticut,usa,5 hours left
-0,honda,door,2003,salvage insurance,152608.0,white,arkansas,usa,17 hours left
 4400,jeep,mpv,2019,clean vehicle,17911.0,green,georgia,usa,17 hours left
 10330,infiniti,mpv,2019,clean vehicle,21278.0,blue,florida,usa,22 hours left
 1800,chevrolet,door,2011,salvage insurance,47269.0,black,arkansas,usa,17 hours left
@@ -303,33 +296,23 @@ price,brand,model,year,title_status,mileage,color,state,country,condition
 720,ford,wagon,2006,clean vehicle,26914.0,no_color,florida,usa,23 hours left
 22800,ford,door,2017,clean vehicle,67217.0,red,michigan,usa,2 days left
 2500,ford,door,2017,salvage insurance,78698.0,black,california,usa,19 hours left
-0,ford,door,2003,salvage insurance,246065.0,gold,kansas,usa,8 days left
 9190,gmc,mpv,2017,clean vehicle,41961.0,black,virginia,usa,17 hours left
 10900,jeep,mpv,2019,clean vehicle,13273.0,red,michigan,usa,2 days left
 10400,infiniti,mpv,2019,clean vehicle,31713.0,black,florida,usa,22 hours left
-0,chevrolet,door,2004,salvage insurance,0.0,maroon,wyoming,usa,18 hours left
-0,chevrolet,door,2003,salvage insurance,194673.0,gray,texas,usa,18 hours left
 7320,chevrolet,pickup,2008,clean vehicle,325611.0,silver,florida,usa,22 hours left
 22809,ford,f-150,2017,clean vehicle,50732.0,black,michigan,usa,20 hours left
-0,ford,van,1998,salvage insurance,186855.0,blue,california,usa,19 hours left
-0,ford,door,2013,salvage insurance,94004.0,black,minnesota,usa,17 hours left
 5520,gmc,mpv,2017,clean vehicle,52904.0,silver,virginia,usa,17 hours left
 10900,jeep,mpv,2019,clean vehicle,14195.0,orange,michigan,usa,2 days left
 6330,jeep,mpv,2019,clean vehicle,43965.0,red,florida,usa,22 hours left
-0,chevrolet,door,2009,salvage insurance,117059.0,black,colorado,usa,18 hours left
 25,chevrolet,pickup,2010,salvage insurance,149189.0,white,colorado,usa,18 hours left
 2320,dodge,door,2007,clean vehicle,112182.0,red,florida,usa,22 hours left
 23702,ford,door,2017,clean vehicle,49024.0,black,michigan,usa,2 days left
-0,ford,chassis,1994,salvage insurance,0.0,green,california,usa,19 hours left
-0,ford,door,1997,salvage insurance,203297.0,green,minnesota,usa,17 hours left
 5520,gmc,mpv,2017,clean vehicle,35821.0,silver,virginia,usa,17 hours left
 4050,heartland,pioneer,2018,clean vehicle,1.0,gray,pennsylvania,usa,7 days left
 14810,infiniti,mpv,2019,clean vehicle,32611.0,brown,florida,usa,22 hours left
 25,chevrolet,door,2011,salvage insurance,105244.0,white,colorado,usa,18 hours left
 2960,chrysler,van,2008,clean vehicle,164048.0,red,florida,usa,23 hours left
 24800,ford,door,2017,clean vehicle,46955.0,gray,michigan,usa,2 days left
-0,ford,door,1996,salvage insurance,296860.0,green,california,usa,19 hours left
-0,ford,door,2006,salvage insurance,203158.0,red,illinois,usa,17 hours left
 6270,gmc,mpv,2017,clean vehicle,70443.0,black,virginia,usa,17 hours left
 1880,heartland,trail,2012,clean vehicle,1.0,white,pennsylvania,usa,7 days left
 10050,infiniti,mpv,2019,clean vehicle,18229.0,gray,florida,usa,22 hours left
@@ -337,23 +320,16 @@ price,brand,model,year,title_status,mileage,color,state,country,condition
 26900,chevrolet,traverse,2018,clean vehicle,42941.0,black,missouri,usa,20 hours left
 1420,chrysler,door,2007,clean vehicle,104405.0,gold,florida,usa,23 hours left
 27003,ford,door,2017,clean vehicle,57186.0,black,michigan,usa,20 hours left
-0,ford,door,2002,salvage insurance,214800.0,black,south carolina,usa,2 days left
 350,ford,door,2004,salvage insurance,236980.0,gray,illinois,usa,17 hours left
 5600,gmc,mpv,2017,clean vehicle,59808.0,black,virginia,usa,17 hours left
 6680,heartland,country,2011,clean vehicle,1.0,gray,pennsylvania,usa,7 days left
 10120,infiniti,mpv,2019,clean vehicle,20681.0,white,florida,usa,22 hours left
-0,chevrolet,door,2010,salvage insurance,137422.0,red,colorado,usa,18 hours left
 3920,ford,door,2015,clean vehicle,102700.0,white,georgia,usa,2 days left
 23100,ford,door,2017,clean vehicle,53270.0,black,michigan,usa,20 hours left
-0,gmc,door,2004,salvage insurance,235348.0,gold,south carolina,usa,2 days left
 5630,gmc,mpv,2017,clean vehicle,27195.0,black,virginia,usa,17 hours left
-0,heartland,sundance,2009,clean vehicle,1.0,white,pennsylvania,usa,7 days left
 2800,jaguar,doors,2019,clean vehicle,20849.0,black,florida,usa,22 hours left
-0,chevrolet,door,2008,salvage insurance,159266.0,gray,california,usa,19 hours left
 8850,ford,door,2015,clean vehicle,143818.0,black,georgia,usa,2 days left
 18712,ford,f-150,2017,clean vehicle,67347.0,black,michigan,usa,20 hours left
-0,ford,pickup,2009,salvage insurance,180364.0,blue,tennessee,usa,2 days left
-0,ford,door,2009,salvage insurance,184889.0,black,illinois,usa,17 hours left
 6300,gmc,mpv,2017,clean vehicle,117400.0,blue,virginia,usa,17 hours left
 2220,heartland,country,2010,clean vehicle,1.0,white,pennsylvania,usa,7 days left
 6930,jeep,mpv,2019,clean vehicle,47798.0,red,florida,usa,22 hours left
@@ -368,8 +344,6 @@ price,brand,model,year,title_status,mileage,color,state,country,condition
 2725,chevrolet,door,2004,salvage insurance,308451.0,black,south carolina,usa,2 days left
 3790,ford,door,2015,clean vehicle,100893.0,gray,georgia,usa,2 days left
 40514,ford,door,2017,clean vehicle,90304.0,white,michigan,usa,20 hours left
-0,ford,door,1997,salvage insurance,146912.0,green,wisconsin,usa,2 days left
-0,ford,door,1998,salvage insurance,131367.0,white,illinois,usa,17 hours left
 9190,gmc,mpv,2017,clean vehicle,31394.0,gray,virginia,usa,17 hours left
 10330,infiniti,mpv,2019,clean vehicle,25933.0,gray,florida,usa,22 hours left
 1000,acura,door,2008,salvage insurance,118250.0,gray,michigan,usa,2 days left
@@ -389,7 +363,6 @@ price,brand,model,year,title_status,mileage,color,state,country,condition
 4950,honda,mpv,2016,clean vehicle,71404.0,black,virginia,usa,17 hours left
 3760,hyundai,doors,2019,clean vehicle,30382.0,silver,florida,usa,22 hours left
 3900,acura,door,2009,clean vehicle,179389.0,black,texas,usa,2 hours left
-0,cadillac,coupe,2000,salvage insurance,105169.0,white,virginia,usa,9 days left
 3830,ford,door,2015,clean vehicle,82534.0,silver,georgia,usa,2 days left
 53500,ford,door,2017,clean vehicle,55732.0,white,michigan,usa,20 hours left
 25,ford,door,2010,salvage insurance,198596.0,gray,michigan,usa,2 days left
@@ -398,7 +371,6 @@ price,brand,model,year,title_status,mileage,color,state,country,condition
 4150,jeep,door,2014,clean vehicle,108895.0,white,new york,usa,2 days left
 25,jeep,door,1999,salvage insurance,226972.0,black,florida,usa,16 hours left
 61200,bmw,series,2020,clean vehicle,7509.0,black,california,usa,7 days left
-0,buick,door,2006,salvage insurance,137464.0,blue,virginia,usa,9 days left
 13500,bmw,series,2014,clean vehicle,33542.0,blue,new jersey,usa,2 days left
 6490,ford,door,2015,clean vehicle,74754.0,black,georgia,usa,2 days left
 51502,ford,door,2017,clean vehicle,27661.0,black,michigan,usa,2 days left
@@ -408,7 +380,6 @@ price,brand,model,year,title_status,mileage,color,state,country,condition
 7770,jeep,door,2014,clean vehicle,72732.0,gray,new york,usa,2 days left
 200,jeep,door,2001,salvage insurance,126400.0,green,maryland,usa,16 hours left
 25,audi,door,2008,salvage insurance,177422.0,black,texas,usa,17 hours left
-0,chevrolet,door,1995,salvage insurance,274706.0,green,arizona,usa,2 days left
 1825,bmw,coupe,2008,salvage insurance,77984.0,white,georgia,usa,2 days left
 39800,bmw,series,2017,clean vehicle,23177.0,blue,california,usa,21 hours left
 9210,ford,door,2015,clean vehicle,26911.0,silver,georgia,usa,2 days left
@@ -417,9 +388,6 @@ price,brand,model,year,title_status,mileage,color,state,country,condition
 3960,honda,door,2015,clean vehicle,95128.0,white,virginia,usa,2 days left
 5998,hyundai,doors,2014,clean vehicle,122975.0,phantom black,new york,usa,5 days left
 3700,honda,doors,2014,clean vehicle,162824.0,blue,new york,usa,2 days left
-0,kia,wagon,2008,salvage insurance,148463.0,silver,indiana,usa,16 hours left
-0,audi,door,2005,salvage insurance,181896.0,black,california,usa,19 hours left
-0,bmw,door,2000,salvage insurance,216657.0,gray,utah,usa,2 days left
 5000,gmc,door,2012,clean vehicle,140339.0,black,utah,usa,19 hours left
 15050,infiniti,mpv,2019,clean vehicle,26786.0,white,texas,usa,17 hours left
 3960,hyundai,doors,2019,clean vehicle,35623.0,red,ohio,usa,2 days left
@@ -433,7 +401,6 @@ price,brand,model,year,title_status,mileage,color,state,country,condition
 4320,chevrolet,door,2011,clean vehicle,88359.0,brown,florida,usa,22 hours left
 33001,ford,f-150,2017,clean vehicle,35905.0,gray,michigan,usa,2 days left
 10000,ford,door,2017,salvage insurance,35747.0,red,arkansas,usa,17 hours left
-0,ford,door,2004,salvage insurance,167011.0,red,maryland,usa,16 hours left
 5790,gmc,door,2012,clean vehicle,105020.0,white,utah,usa,19 hours left
 14750,infiniti,mpv,2019,clean vehicle,11047.0,black,texas,usa,17 hours left
 4010,hyundai,doors,2019,clean vehicle,31233.0,silver,ohio,usa,2 days left
@@ -441,7 +408,6 @@ price,brand,model,year,title_status,mileage,color,state,country,condition
 13000,kia,sportage,2017,clean vehicle,71991.0,silver,new jersey,usa,2 hours left
 3550,nissan,doors,2018,clean vehicle,29043.0,blue,california,usa,20 hours left
 3040,nissan,doors,2017,clean vehicle,36064.0,gray,new jersey,usa,17 hours left
-0,chevrolet,coupe,2008,salvage insurance,270080.0,yellow,illinois,usa,17 hours left
 36400,audi,5,2015,clean vehicle,47213.0,black,wisconsin,usa,2 days left
 4480,ford,door,2011,clean vehicle,116480.0,black,florida,usa,23 hours left
 31003,ford,door,2017,clean vehicle,72084.0,red,michigan,usa,20 hours left
@@ -453,7 +419,6 @@ price,brand,model,year,title_status,mileage,color,state,country,condition
 46900,land,discovery,2018,clean vehicle,32387.0,black,florida,usa,2 days left
 10740,mercedes-benz,doors,2018,clean vehicle,48140.0,white,california,usa,20 hours left
 3160,nissan,doors,2017,clean vehicle,34861.0,gray,new jersey,usa,17 hours left
-0,chevrolet,door,2006,salvage insurance,268040.0,silver,texas,usa,17 hours left
 3450,chrysler,door,2011,clean vehicle,114119.0,gold,florida,usa,22 hours left
 27102,ford,f-150,2017,clean vehicle,34165.0,red,michigan,usa,2 days left
 500,gmc,door,2018,salvage insurance,27442.0,black,arkansas,usa,17 hours left
@@ -493,7 +458,6 @@ price,brand,model,year,title_status,mileage,color,state,country,condition
 4200,chevrolet,cutaway,2006,clean vehicle,118009.0,white,wisconsin,usa,21 hours left
 8430,chevrolet,utility,2011,clean vehicle,114547.0,black,florida,usa,22 hours left
 25503,ford,f-150,2017,clean vehicle,18647.0,black,michigan,usa,9 minutes
-0,ford,pickup,1996,salvage insurance,252588.0,red,oklahoma,usa,17 hours left
 26000,gmc,limited,2019,clean vehicle,16669.0,black,pennsylvania,usa,1 days left
 3900,honda,doors,2017,clean vehicle,47970.0,blue,virginia,usa,2 days left
 11200,jeep,mpv,2019,clean vehicle,12905.0,gray,michigan,usa,2 days left
@@ -503,29 +467,24 @@ price,brand,model,year,title_status,mileage,color,state,country,condition
 10840,lexus,mpv,2017,clean vehicle,36596.0,black,california,usa,20 hours left
 100,peterbilt,truck,2012,salvage insurance,0.0,blue,florida,usa,17 hours left
 11050,ram,door,2017,clean vehicle,30421.0,white,new jersey,usa,17 hours left
-0,chevrolet,door,2012,salvage insurance,134938.0,orange,oklahoma,usa,17 hours left
 1000,chevrolet,door,2005,clean vehicle,135675.0,gray,wisconsin,usa,21 hours left
 3570,dodge,door,2015,clean vehicle,17355.0,black,georgia,usa,2 days left
 25001,ford,door,2017,clean vehicle,27773.0,gray,michigan,usa,2 days left
-0,ford,door,2010,salvage insurance,86841.0,silver,oklahoma,usa,17 hours left
 5630,gmc,mpv,2017,clean vehicle,58366.0,black,virginia,usa,2 days left
 11100,jeep,mpv,2019,clean vehicle,11229.0,white,michigan,usa,2 days left
 4650,hyundai,mpv,2019,clean vehicle,27492.0,white,ohio,usa,2 days left
-0,lincoln,door,2005,salvage insurance,89705.0,green,minnesota,usa,17 hours left
 3820,nissan,mpv,2016,clean vehicle,41654.0,blue,california,usa,20 hours left
 2900,nissan,doors,2017,clean vehicle,31954.0,gray,new jersey,usa,17 hours left
 50,chevrolet,door,2008,salvage insurance,172102.0,blue,texas,usa,17 hours left
 5100,chevrolet,pickup,2004,clean vehicle,173321.0,gray,wisconsin,usa,21 hours left
 4700,dodge,door,2015,clean vehicle,93423.0,red,georgia,usa,2 days left
 29502,ford,f-150,2017,clean vehicle,14053.0,red,michigan,usa,2 days left
-0,ford,door,2008,salvage insurance,145483.0,red,oklahoma,usa,17 hours left
 6160,honda,door,2017,clean vehicle,25956.0,white,virginia,usa,2 days left
 10910,jeep,mpv,2019,clean vehicle,12253.0,red,michigan,usa,2 days left
 3440,hyundai,doors,2019,clean vehicle,34895.0,gray,ohio,usa,2 days left
 16000,mazda,cx-3,2016,clean vehicle,47753.0,gray,florida,usa,2 days left
 3810,kia,door,2016,clean vehicle,39408.0,black,california,usa,20 hours left
 3020,nissan,doors,2017,clean vehicle,33599.0,white,new jersey,usa,17 hours left
-0,chevrolet,door,2003,salvage insurance,194673.0,gray,texas,usa,17 hours left
 3870,ford,door,2010,clean vehicle,185983.0,white,florida,usa,22 hours left
 24811,ford,door,2017,clean vehicle,28464.0,red,michigan,usa,21 hours left
 75,ford,door,2007,salvage insurance,154989.0,blue,oklahoma,usa,17 hours left
@@ -539,7 +498,6 @@ price,brand,model,year,title_status,mileage,color,state,country,condition
 1200,chevrolet,door,2001,clean vehicle,149543.0,red,wisconsin,usa,21 hours left
 6470,chevrolet,coupe,2010,clean vehicle,69622.0,yellow,florida,usa,22 hours left
 26400,ford,door,2017,clean vehicle,36295.0,red,michigan,usa,19 hours left
-0,gmc,door,1993,salvage insurance,0.0,light blue,colorado,usa,18 hours left
 32500,gmc,2500hd,2018,clean vehicle,14856.0,blue,pennsylvania,usa,1 days left
 6900,honda,mpv,2017,clean vehicle,44129.0,brown,minnesota,usa,18 hours left
 11030,jeep,mpv,2019,clean vehicle,10861.0,yellow,michigan,usa,2 days left
