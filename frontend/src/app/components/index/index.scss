@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+
+    .wrapper2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+
+        .card {
+            width: 300px;
+            padding: 2rem;
+            border-radius: 30px;
+            border: 2px solid white;
+        }
+    }
+}
