@@ -43,6 +43,22 @@ def convert_to_numeric(df):
 def clean_data(df):
     df=df.drop_duplicates()
 
+    df['Company Names'] = df['Company Names'].str.upper().str.strip()
+    df['Fuel Types'] = df['Fuel Types'].str.lower().str.strip()
+
+    df = df[df['Cars Prices'] < 1e7]
+    df = df[df['HorsePower'] < 2000]
+    df = df[df['Seats'] <= 10]
+
+    df['Fuel Types'] = df['Fuel Types'].replace({
+        'plug in hyrbrid': 'plug-in hybrid',
+        'hybrid (petrol)': 'hybrid',
+        'hybrid/electric': 'hybrid',
+        'petrol/hybrid': 'hybrid',
+    })
+
+    df = df[df['CC/Battery Capacity'] < 10000]
+    
     for col in df.columns:
         if pd.api.types.is_numeric_dtype(df[col]):
             df[col]= df[col].fillna(df[col].mean())
@@ -74,6 +90,8 @@ if __name__ == "__main__":
     inspect_data(df)
 
     df=clean_data(df)
+    save_data(df, "data/clean_no_encoding.csv")
+
     df=encode_data(df)
     df=normalize_data(df)
 
