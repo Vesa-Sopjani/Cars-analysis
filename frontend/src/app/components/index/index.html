@@ -1,24 +1,95 @@
-<header></header>
-<div class="wrapper">
-    <div class="header">
-        <h2>What can we help you with</h2>
-    </div>
-    <div class="wrapper2">
-        <div class="card b1">
-            <h4>Price Evaluator</h4>
-            <p>Our Price Evaluator helps evaluate the price of a car you're interested in buying online. You give us the details, we give you a rating based on our predictions</p>
-        </div>
-        <div class="card b1">
-            <h4>Price Suggestor</h4>
-            <p>Interested in selling a car but not knowing how to price it fairly? We got you! This is stronger than a normal predictor because it's multi-output decisioning, not just a single number.</p>
-        </div>
-        <div class="card b1">
-            <h4>Car Comparison</h4>
-            <p>Stuck between cars, noy knowing which one is for you? Find out whats your best fit with our Comparison feature</p>
-        </div>
-        <div class="card b1">
-            <h4>Analytics Dashboard</h4>
-            <p>Find out more about the current market with statistics and graphs.</p>
-        </div>
-    </div>
+<app-header></app-header>
+<div class="video-bg">
+  <video autoplay muted loop id="myVideo">
+    <source src="Video.mp4" type="video/mp4" />
+  </video>
 </div>
+<div class="wrapper">
+  <div class="header">
+    <div class="title">Your budget. Your needs.</div>
+    <div class="title">Backed by real car market intelligence.</div>
+  </div>
+  <div class="try">
+    <div class="steps">1. Enter car details</div>
+    <div class="steps">2. Our model analyzes market data</div>
+    <div class="steps">3. Get price insights instantly</div>
+    <button class="try-btn" routerLink="price-evaluator">
+      <span>Try it now</span>
+      <span class="material-icons"> arrow_forward_ios </span>
+    </button>
+  </div>
+  <div class="wrapper2">
+    <div class="card b1">
+      <h4>Price Evaluator</h4>
+      <p>
+        Our Price Evaluator helps evaluate the price of a car you're interested in buying online.
+        You give us the details, we give you a rating based on our predictions.
+      </p>
+    </div>
+    <div class="card b1">
+      <h4>Price Suggestor</h4>
+      <p>
+        Interested in selling a car but not knowing how to price it fairly? We got you! This is
+        stronger than a normal predictor because it's multi-output decisioning, not just a single
+        number.
+      </p>
+    </div>
+    <div class="card b1">
+      <h4>Car Comparison</h4>
+      <p>
+        Stuck between cars, noy knowing which one is for you? Find out whats your best fit with our
+        Comparison feature.
+      </p>
+    </div>
+    <div class="card b1">
+      <h4>Analytics Dashboard</h4>
+      <p>Find out more about the current market with statistics and graphs.</p>
+    </div>
+  </div>
+  <div class="why">
+    <h1>Why use our platform</h1>
+    <div class="why-grid">
+      <div class="reasons">
+        <span class="material-icons">insights</span>
+        <h2>Data-driven decisions</h2>
+        <p>Our predictions are based on real market data and trends.</p>
+      </div>
+      <div class="reasons">
+        <span class="material-icons">speed</span>
+        <h2>Instant results</h2>
+        <p>Get price insights in seconds, not hours of research.</p>
+      </div>
+      <div class="reasons">
+        <span class="material-icons">verified</span>
+        <h2>Reliable analysis</h2>
+        <p>Multiple features analyzed for accurate evaluation.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="stat">
+      <span class="stat-title">1000+</span>
+      <p>Cars analyzed</p>
+    </div>
+    <div class="stat">
+      <span class="stat-title">10+</span>
+      <p>Features per prediction</p>
+    </div>
+    <div class="stat">
+      <span class="stat-title">Real-time</span>
+      <p>Market insights</p>
+    </div>
+  </div>
+  <div class="final-cta">
+    <h1>Ready to find the right price?</h1>
+    <p>Start analyzing cars based on real market intelligence.</p>
+    <div class="button-display">
+      <button class="btn" routerLink="/price-evaluator">Evaluate a Car</button>
+      <button class="btn" routerLink="/price-suggestion">Get Price Suggestion</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 AutoValue AI</p>
+</footer>

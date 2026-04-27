@@ -1,5 +1,34 @@
 .header {
-    height: 70px;
-    width: 100%;
-    background-color: white;
+  height: 60px;
+  width: 98.5%;
+  border-radius: 30px;
+  border: 2px solid white;
+  display: flex;
+  color: white;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+
+  .title {
+    margin-left: 20px;
+    font-size: 1.5rem;
+  }
+  .nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+  }
+  .header-item {
+    padding: 7px 20px;
+    border-radius: 25px;
+    border: 2px solid white;
+    cursor: pointer;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.237);
+    }
+  }
 }
