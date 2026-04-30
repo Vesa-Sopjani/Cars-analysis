@@ -1,2 +1,3 @@
 def correlation_analysis(df):
-    return df.corr(numeric_only=True)
+    corr = df.corr(numeric_only=True)
+    print(corr['price'].sort_values(ascending=False))
