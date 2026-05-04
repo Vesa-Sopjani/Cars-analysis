@@ -8,7 +8,7 @@ OUTPUT_PATH = "../data/featured_cars.csv"
 
 def main():
     print("=" * 60)
-    print("Feature Engineering Pipeline")
+    print("Feature Engineering")
     print(" Car Price Analysis Project")
     print("=" * 60)
 
@@ -22,7 +22,7 @@ def main():
     selection = run_feature_selection(df)
 
     print("\n" + "=" * 60)
-    print("  PIPELINE COMPLETE — FINAL SUMMARY")
+    print("FINAL SUMMARY")
     print("=" * 60)
 
     new_cols = ["car_age", "price_per_mile", "mileage_category",
@@ -42,7 +42,7 @@ def main():
               validation["bad_mileage_rows"] +
               len(validation["missing_values"]))
     print(f"\n   Validation issues found   : {issues}")
-    print("\n[DONE] Share 'featured_cars.csv' with Person 2 and Person 3.")
+    print("\n[DONE]")
     print("=" * 60)
  
  
