@@ -19,6 +19,12 @@ def add_car_age(df: pd.DataFrame) -> pd.DataFrame:
 
 def add_price_per_mile(df: pd.DataFrame) -> pd.DataFrame:
     df["price_per_mile"] = df["price"] / (df["mileage"] + 1)
+    df["price_per_mile"] = (
+        df["price_per_mile"]
+        .replace([np.inf, -np.inf], np.nan)
+        .fillna(0)
+    )
+
     print(f"[FEATURE] 'price_per_mile' created.")
     return df
 
@@ -27,7 +33,7 @@ def add_price_per_mile(df: pd.DataFrame) -> pd.DataFrame:
 def add_mileage_category(df: pd.DataFrame) -> pd.DataFrame:
     bins = [0, 30000, 80000, 150000, float("inf")]
     labels = ["Low", "Medium", "High", "Very High"]
-    df["mileage_category"] = pd.cut(df["mileage"], bins=bins, labels=labels)
+    df["mileage_category"] = pd.cut(df["mileage"], bins=bins, labels=labels, include_lowest=True)
     print(f"[FEATURE] 'mileage_category' created.")
     print(df["mileage_category"].value_counts().to_string())
     return df
@@ -52,67 +58,59 @@ def add_age_group(df: pd.DataFrame) -> pd.DataFrame:
 # Feature 5: Brand Tier
 
 def add_brand_tier(df: pd.DataFrame) -> pd.DataFrame:
-    luxury_brands = ["audi", "bmw", "cadillac", "infiniti",
-                     "jaguar", "lexus", "lincoln", "maserati", "land rover"]
-    mid_brands    = ["buick", "chevrolet", "chrysler", "dodge",
-                     "ford", "gmc", "honda", "hyundai",
-                     "jeep", "kia", "mazda", "nissan",
-                     "ram", "toyota"]
+    luxury_brands = [
+        "acura", "audi", "bmw", "cadillac", "infiniti",
+        "jaguar", "lexus", "lincoln", "maserati",
+        "mercedes-benz", "land"
+    ]
+
+    mid_brands = [
+        "buick", "chevrolet", "chrysler", "dodge",
+        "ford", "gmc", "honda", "hyundai",
+        "jeep", "kia", "mazda", "nissan",
+        "ram", "toyota"
+    ]
+
+    economy_brands = [
+        "fiat", "mitsubishi"
+    ]
+
+    other_brands = [
+        "harley-davidson", "heartland", "peterbilt"
+    ]
+
+    def assign_tier(brand):
+        b = str(brand).lower().strip()
+
+        if b in luxury_brands:
+            return "Luxury"
+        elif b in mid_brands:
+            return "Mid"
+        elif b in economy_brands:
+            return "Economy"
+        elif b in other_brands:
+            return "Other"
+        else:
+            return "Other"
 
     if "brand" in df.columns:
-        def assign_tier(brand):
-            b = str(brand).lower().strip()
-            if any(lb in b for lb in luxury_brands):
-                return "Luxury"
-            elif any(mb in b for mb in mid_brands):
-                return "Mid"
-            else:
-                return "Economy"
-
-        df["brand_name"] = df["brand"].str.title()
+        df["brand_name"] = df["brand"].astype(str).str.title()
         df["brand_tier"] = df["brand"].apply(assign_tier)
-
     else:
-        brand_cols = [c for c in df.columns if c.startswith("brand_")]
-        if not brand_cols:
-            df["brand_name"] = "Unknown"
-            df["brand_tier"] = "Economy"
-            return df
-
-        df["brand_name"] = (
-            df[brand_cols].idxmax(axis=1)
-            .str.replace("brand_", "", regex=False)
-            .str.title()
-        )
-
-        luxury_cols = ["brand_audi", "brand_bmw", "brand_cadillac", "brand_infiniti",
-                       "brand_jaguar", "brand_lexus", "brand_lincoln", "brand_maserati", "brand_land"]
-        mid_cols    = ["brand_buick", "brand_chevrolet", "brand_chrysler", "brand_dodge",
-                       "brand_ford", "brand_gmc", "brand_honda", "brand_hyundai",
-                       "brand_jeep", "brand_kia", "brand_mazda", "brand_nissan",
-                       "brand_ram", "brand_toyota"]
-
-        def assign_tier(row):
-            for col in luxury_cols:
-                if col in df.columns and row[col] == 1:
-                    return "Luxury"
-            for col in mid_cols:
-                if col in df.columns and row[col] == 1:
-                    return "Mid"
-            return "Economy"
-
-        df["brand_tier"] = df.apply(assign_tier, axis=1)
+        df["brand_name"] = "Unknown"
+        df["brand_tier"] = "Other"
 
     print(f"[FEATURE] 'brand_name' and 'brand_tier' created.")
     print(df["brand_tier"].value_counts().to_string())
+
     return df
 
 #Feature 6: Salvage Flag
 
 def add_salvage_flag(df: pd.DataFrame) -> pd.DataFrame:
-    col = "title_status_salvage insurance"
+    col = "title_status"
     if col in df.columns:
-        df["is_salvage"] = df[col].astype(int)
+        df["is_salvage"] = df[col].astype(str).str.lower().str.contains("salvage").astype(int)        
         n = df["is_salvage"].sum()
         print(f"[FEATURE] 'is_salvage' created. Salvage cars: {n} ({n/len(df)*100:.1f}%)")
     else:
@@ -138,8 +136,8 @@ def run_feature_engineering(input_path: str, output_path: str) -> pd.DataFrame:
     return df
 
 if __name__ == "__main__":
-    INPUT  = "../data/clean_no_encoding.csv"
-    OUTPUT = "../data/featured_cars.csv"
+    INPUT  = "../../data/clean_no_encoding.csv"
+    OUTPUT = "../../data/featured_cars.csv"
     df = run_feature_engineering(INPUT, OUTPUT)
     print("\nSample output:")
     cols = ["price", "year", "mileage", "car_age", "price_per_mile",

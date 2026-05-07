@@ -75,7 +75,7 @@ def check_category_labels(df: pd.DataFrame) -> None:
     expected = {
         "mileage_category": ["Low", "Medium", "High", "Very High"],
         "age_group":        ["New", "Recent", "Old", "Classic"],
-        "brand_tier":       ["Luxury", "Mid", "Economy"]
+        "brand_tier":       ["Luxury", "Mid", "Economy", "Other"]
     }
     for col, allowed in expected.items():
         if col not in df.columns:
@@ -128,5 +128,5 @@ def generate_validation_report(df: pd.DataFrame) -> dict:
  
  
 if __name__ == "__main__":
-    df = pd.read_csv("../data/featured_cars.csv")
+    df = pd.read_csv("../../data/featured_cars.csv")
     generate_validation_report(df)

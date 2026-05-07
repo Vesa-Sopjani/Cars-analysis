@@ -34,12 +34,12 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 33,5330,ford,mpv,2017,clean vehicle,37792.0,no_color,texas,usa,2 days left,9,0.14103140793268595,Medium,Old,Ford,Mid,0
 34,13000,ford,convertible,2003,clean vehicle,58817.0,gray,virginia,usa,22 hours left,23,0.22102077595293956,Medium,Classic,Ford,Mid,0
 35,11900,gmc,door,2017,clean vehicle,27965.0,black,california,usa,20 hours left,9,0.4255166988486019,Low,Old,Gmc,Mid,0
-36,16600,mercedes-benz,vans,2016,clean vehicle,110907.0,white,new york,usa,19 hours left,10,0.14967360334691818,High,Old,Mercedes-Benz,Economy,0
+36,16600,mercedes-benz,vans,2016,clean vehicle,110907.0,white,new york,usa,19 hours left,10,0.14967360334691818,High,Old,Mercedes-Benz,Luxury,0
 37,19200,chevrolet,1500,2018,clean vehicle,2430.0,white,tennessee,usa,22 hours left,8,7.897984368572604,Low,Old,Chevrolet,Mid,0
 38,7320,ford,mpv,2017,clean vehicle,32366.0,gold,texas,usa,2 days left,9,0.22615627027528037,Medium,Old,Ford,Mid,0
 39,7000,ford,pk,2003,clean vehicle,176567.0,white,tennessee,usa,22 hours left,23,0.03964478274659055,Very High,Classic,Ford,Mid,0
 40,12710,gmc,door,2017,clean vehicle,30049.0,white,california,usa,20 hours left,9,0.4229617304492512,Medium,Old,Gmc,Mid,0
-41,16600,mercedes-benz,vans,2016,clean vehicle,97983.0,white,new york,usa,19 hours left,10,0.16941541476159372,High,Old,Mercedes-Benz,Economy,0
+41,16600,mercedes-benz,vans,2016,clean vehicle,97983.0,white,new york,usa,19 hours left,10,0.16941541476159372,High,Old,Mercedes-Benz,Luxury,0
 42,30500,chevrolet,1500,2018,clean vehicle,30442.0,red,tennessee,usa,22 hours left,8,1.001872351607923,Medium,Old,Chevrolet,Mid,0
 43,6330,ford,mpv,2017,clean vehicle,38123.0,red,texas,usa,2 days left,9,0.16603714195782185,Medium,Old,Ford,Mid,0
 44,55000,ford,srw,2017,clean vehicle,15273.0,black,pennsylvania,usa,3 days left,9,3.6008904019903105,Low,Old,Ford,Mid,0
@@ -184,7 +184,7 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 185,1400,dodge,pk,2002,clean vehicle,185460.0,black,michigan,usa,2 days left,24,0.007548756881500693,Very High,Classic,Dodge,Mid,0
 186,18402,cadillac,srx,2016,clean vehicle,26667.0,gray,michigan,usa,2 days left,10,0.6900404979751013,Low,Old,Cadillac,Luxury,0
 187,4160,ford,door,2017,clean vehicle,37176.0,white,texas,usa,2 days left,9,0.11189714070527476,Medium,Old,Ford,Mid,0
-188,175,chrysler,door,2000,salvage insurance,231240.0,red,north carolina,usa,3 days left,26,0.000756786210057905,Very High,Classic,Chrysler,Mid,0
+188,175,chrysler,door,2000,salvage insurance,231240.0,red,north carolina,usa,3 days left,26,0.000756786210057905,Very High,Classic,Chrysler,Mid,1
 189,24503,chevrolet,colorado,2016,clean vehicle,18006.0,brown,michigan,usa,20 hours left,10,1.3607485977675349,Low,Old,Chevrolet,Mid,0
 190,15840,ford,door,2017,clean vehicle,72445.0,white,texas,usa,2 days left,9,0.21864561190403886,Medium,Old,Ford,Mid,0
 191,20500,ford,door,2014,clean vehicle,123355.0,black,south carolina,usa,21 hours left,12,0.16618567398424072,High,Old,Ford,Mid,0
@@ -201,10 +201,10 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 203,8600,dodge,pickup,2005,clean vehicle,219823.0,gray,south carolina,usa,21 hours left,21,0.039122206856394205,Very High,Classic,Dodge,Mid,0
 204,6000,chevrolet,malibu,2018,clean vehicle,42090.0,gray,texas,usa,21 hours left,8,0.14254828823263882,Medium,Old,Chevrolet,Mid,0
 205,12990,ford,door,2017,clean vehicle,126523.0,white,texas,usa,2 days left,9,0.10266826847080396,High,Old,Ford,Mid,0
-206,25,chevrolet,vehicl,2020,salvage insurance,7232.0,black,kentucky,usa,3 days left,6,0.003456380478363058,Low,Recent,Chevrolet,Mid,0
+206,25,chevrolet,vehicl,2020,salvage insurance,7232.0,black,kentucky,usa,3 days left,6,0.003456380478363058,Low,Recent,Chevrolet,Mid,1
 207,13200,buick,encore,2017,clean vehicle,60171.0,black,texas,usa,21 hours left,9,0.21937113607658046,Medium,Old,Buick,Mid,0
 208,4410,ford,wagon,2017,clean vehicle,209915.0,white,texas,usa,2 days left,9,0.02100840336134454,Very High,Old,Ford,Mid,0
-209,25,chrysler,door,2005,salvage insurance,151815.0,silver,massachusetts,usa,3 days left,21,0.0001646730252410813,Very High,Classic,Chrysler,Mid,0
+209,25,chrysler,door,2005,salvage insurance,151815.0,silver,massachusetts,usa,3 days left,21,0.0001646730252410813,Very High,Classic,Chrysler,Mid,1
 210,22500,chevrolet,camaro,2020,clean vehicle,13826.0,green,georgia,usa,3 days left,6,1.6272510305923193,Low,Recent,Chevrolet,Mid,0
 211,7420,ford,mpv,2017,clean vehicle,55854.0,white,texas,usa,2 days left,9,0.13284397099632977,Medium,Old,Ford,Mid,0
 212,13500,ford,door,2016,clean vehicle,45757.0,silver,arizona,usa,20 hours left,10,0.29503037720180075,Medium,Old,Ford,Mid,0
@@ -279,23 +279,23 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 281,18300,chevrolet,impala,2019,clean vehicle,25809.0,black,texas,usa,21 hours left,7,0.7090275087175514,Low,Recent,Chevrolet,Mid,0
 282,11760,ford,cab,2017,clean vehicle,30553.0,white,texas,usa,2 days left,9,0.3848923217909275,Medium,Old,Ford,Mid,0
 283,31700,dodge,durango,2019,clean vehicle,26549.0,red,ohio,usa,21 hours left,7,1.1939736346516008,Low,Recent,Dodge,Mid,0
-284,25,dodge,door,2007,salvage insurance,160528.0,dark blue,minnesota,usa,17 hours left,19,0.00015573510082290428,Very High,Classic,Dodge,Mid,0
+284,25,dodge,door,2007,salvage insurance,160528.0,dark blue,minnesota,usa,17 hours left,19,0.00015573510082290428,Very High,Classic,Dodge,Mid,1
 286,7340,ford,doors,2019,clean vehicle,15854.0,gray,florida,usa,17 hours left,7,0.4629454430778934,Low,Recent,Ford,Mid,0
 287,8200,hyundai,door,2017,clean vehicle,56690.0,white,connecticut,usa,5 hours left,9,0.1446437706161472,Medium,Old,Hyundai,Mid,0
 288,3000,kia,door,2013,clean vehicle,97142.0,silver,missouri,usa,9 days left,13,0.030882307526018345,High,Old,Kia,Mid,0
 289,6530,jeep,mpv,2019,clean vehicle,10185.0,black,georgia,usa,17 hours left,7,0.6410759866483409,Low,Recent,Jeep,Mid,0
 291,12700,kia,soul,2019,clean vehicle,23514.0,silver,california,usa,10 days left,7,0.5400807994896875,Low,Recent,Kia,Mid,0
 292,13800,kia,sorento,2017,clean vehicle,86959.0,gray,north carolina,usa,3 days left,9,0.15869365225390986,High,Old,Kia,Mid,0
-294,725,ford,door,2017,salvage insurance,67279.0,gray,virginia,usa,2 days left,9,0.010775862068965518,Medium,Old,Ford,Mid,0
+294,725,ford,door,2017,salvage insurance,67279.0,gray,virginia,usa,2 days left,9,0.010775862068965518,Medium,Old,Ford,Mid,1
 295,7400,ford,doors,2019,clean vehicle,16482.0,gray,florida,usa,17 hours left,7,0.4489474003518777,Low,Recent,Ford,Mid,0
 296,9800,hyundai,elantra,2017,clean vehicle,35687.0,red,connecticut,usa,5 hours left,9,0.27460210715086303,Medium,Old,Hyundai,Mid,0
 298,4400,jeep,mpv,2019,clean vehicle,17911.0,green,georgia,usa,17 hours left,7,0.24564537740062528,Low,Recent,Jeep,Mid,0
 299,10330,infiniti,mpv,2019,clean vehicle,21278.0,blue,florida,usa,22 hours left,7,0.4854551435687767,Low,Recent,Infiniti,Luxury,0
-300,1800,chevrolet,door,2011,salvage insurance,47269.0,black,arkansas,usa,17 hours left,15,0.03807911994922784,Medium,Old,Chevrolet,Mid,0
-301,50,chevrolet,door,2008,salvage insurance,172102.0,blue,texas,usa,18 hours left,18,0.00029052369801804733,Very High,Classic,Chevrolet,Mid,0
+300,1800,chevrolet,door,2011,salvage insurance,47269.0,black,arkansas,usa,17 hours left,15,0.03807911994922784,Medium,Old,Chevrolet,Mid,1
+301,50,chevrolet,door,2008,salvage insurance,172102.0,blue,texas,usa,18 hours left,18,0.00029052369801804733,Very High,Classic,Chevrolet,Mid,1
 302,720,ford,wagon,2006,clean vehicle,26914.0,no_color,florida,usa,23 hours left,20,0.026750882407579418,Low,Classic,Ford,Mid,0
 303,22800,ford,door,2017,clean vehicle,67217.0,red,michigan,usa,2 days left,9,0.3391948585200393,Medium,Old,Ford,Mid,0
-304,2500,ford,door,2017,salvage insurance,78698.0,black,california,usa,19 hours left,9,0.03176660440412203,Medium,Old,Ford,Mid,0
+304,2500,ford,door,2017,salvage insurance,78698.0,black,california,usa,19 hours left,9,0.03176660440412203,Medium,Old,Ford,Mid,1
 306,9190,gmc,mpv,2017,clean vehicle,41961.0,black,virginia,usa,17 hours left,9,0.21900767360945617,Medium,Old,Gmc,Mid,0
 307,10900,jeep,mpv,2019,clean vehicle,13273.0,red,michigan,usa,2 days left,7,0.8211541359047763,Low,Recent,Jeep,Mid,0
 308,10400,infiniti,mpv,2019,clean vehicle,31713.0,black,florida,usa,22 hours left,7,0.32793088226020056,Medium,Recent,Infiniti,Luxury,0
@@ -304,25 +304,25 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 315,5520,gmc,mpv,2017,clean vehicle,52904.0,silver,virginia,usa,17 hours left,9,0.10433796427558832,Medium,Old,Gmc,Mid,0
 316,10900,jeep,mpv,2019,clean vehicle,14195.0,orange,michigan,usa,2 days left,7,0.7678219216680755,Low,Recent,Jeep,Mid,0
 317,6330,jeep,mpv,2019,clean vehicle,43965.0,red,florida,usa,22 hours left,7,0.14397488968748579,Medium,Recent,Jeep,Mid,0
-319,25,chevrolet,pickup,2010,salvage insurance,149189.0,white,colorado,usa,18 hours left,16,0.0001675715530531537,High,Classic,Chevrolet,Mid,0
+319,25,chevrolet,pickup,2010,salvage insurance,149189.0,white,colorado,usa,18 hours left,16,0.0001675715530531537,High,Classic,Chevrolet,Mid,1
 320,2320,dodge,door,2007,clean vehicle,112182.0,red,florida,usa,22 hours left,19,0.020680495262205504,High,Classic,Dodge,Mid,0
 321,23702,ford,door,2017,clean vehicle,49024.0,black,michigan,usa,2 days left,9,0.4834676185619582,Medium,Old,Ford,Mid,0
 324,5520,gmc,mpv,2017,clean vehicle,35821.0,silver,virginia,usa,17 hours left,9,0.15409524872983082,Medium,Old,Gmc,Mid,0
-325,4050,heartland,pioneer,2018,clean vehicle,1.0,gray,pennsylvania,usa,7 days left,8,2025.0,Low,Old,Heartland,Economy,0
+325,4050,heartland,pioneer,2018,clean vehicle,1.0,gray,pennsylvania,usa,7 days left,8,2025.0,Low,Old,Heartland,Other,0
 326,14810,infiniti,mpv,2019,clean vehicle,32611.0,brown,florida,usa,22 hours left,7,0.45412731509873666,Medium,Recent,Infiniti,Luxury,0
-327,25,chevrolet,door,2011,salvage insurance,105244.0,white,colorado,usa,18 hours left,15,0.00023754097581832865,High,Old,Chevrolet,Mid,0
+327,25,chevrolet,door,2011,salvage insurance,105244.0,white,colorado,usa,18 hours left,15,0.00023754097581832865,High,Old,Chevrolet,Mid,1
 328,2960,chrysler,van,2008,clean vehicle,164048.0,red,florida,usa,23 hours left,18,0.018043389475095855,Very High,Classic,Chrysler,Mid,0
 329,24800,ford,door,2017,clean vehicle,46955.0,gray,michigan,usa,2 days left,9,0.5281540165261096,Medium,Old,Ford,Mid,0
 332,6270,gmc,mpv,2017,clean vehicle,70443.0,black,virginia,usa,17 hours left,9,0.08900687070580887,Medium,Old,Gmc,Mid,0
-333,1880,heartland,trail,2012,clean vehicle,1.0,white,pennsylvania,usa,7 days left,14,940.0,Low,Old,Heartland,Economy,0
+333,1880,heartland,trail,2012,clean vehicle,1.0,white,pennsylvania,usa,7 days left,14,940.0,Low,Old,Heartland,Other,0
 334,10050,infiniti,mpv,2019,clean vehicle,18229.0,gray,florida,usa,22 hours left,7,0.5512890839275919,Low,Recent,Infiniti,Luxury,0
-335,225,chevrolet,door,2014,salvage insurance,87673.0,red,colorado,usa,18 hours left,12,0.0025663252503592853,High,Old,Chevrolet,Mid,0
+335,225,chevrolet,door,2014,salvage insurance,87673.0,red,colorado,usa,18 hours left,12,0.0025663252503592853,High,Old,Chevrolet,Mid,1
 336,26900,chevrolet,traverse,2018,clean vehicle,42941.0,black,missouri,usa,20 hours left,8,0.6264263425084998,Medium,Old,Chevrolet,Mid,0
 337,1420,chrysler,door,2007,clean vehicle,104405.0,gold,florida,usa,23 hours left,19,0.013600750914698388,High,Classic,Chrysler,Mid,0
 338,27003,ford,door,2017,clean vehicle,57186.0,black,michigan,usa,20 hours left,9,0.47218773497473204,Medium,Old,Ford,Mid,0
-340,350,ford,door,2004,salvage insurance,236980.0,gray,illinois,usa,17 hours left,22,0.0014769116511450285,Very High,Classic,Ford,Mid,0
+340,350,ford,door,2004,salvage insurance,236980.0,gray,illinois,usa,17 hours left,22,0.0014769116511450285,Very High,Classic,Ford,Mid,1
 341,5600,gmc,mpv,2017,clean vehicle,59808.0,black,virginia,usa,17 hours left,9,0.09363139326857162,Medium,Old,Gmc,Mid,0
-342,6680,heartland,country,2011,clean vehicle,1.0,gray,pennsylvania,usa,7 days left,15,3340.0,Low,Old,Heartland,Economy,0
+342,6680,heartland,country,2011,clean vehicle,1.0,gray,pennsylvania,usa,7 days left,15,3340.0,Low,Old,Heartland,Other,0
 343,10120,infiniti,mpv,2019,clean vehicle,20681.0,white,florida,usa,22 hours left,7,0.48931437965380525,Low,Recent,Infiniti,Luxury,0
 345,3920,ford,door,2015,clean vehicle,102700.0,white,georgia,usa,2 days left,11,0.03816905385536655,High,Old,Ford,Mid,0
 346,23100,ford,door,2017,clean vehicle,53270.0,black,michigan,usa,20 hours left,9,0.43363180717463534,Medium,Old,Ford,Mid,0
@@ -331,60 +331,60 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 352,8850,ford,door,2015,clean vehicle,143818.0,black,georgia,usa,2 days left,11,0.06153568026477726,High,Old,Ford,Mid,0
 353,18712,ford,f-150,2017,clean vehicle,67347.0,black,michigan,usa,20 hours left,9,0.27784047039258775,Medium,Old,Ford,Mid,0
 356,6300,gmc,mpv,2017,clean vehicle,117400.0,blue,virginia,usa,17 hours left,9,0.05366223456358975,High,Old,Gmc,Mid,0
-357,2220,heartland,country,2010,clean vehicle,1.0,white,pennsylvania,usa,7 days left,16,1110.0,Low,Classic,Heartland,Economy,0
+357,2220,heartland,country,2010,clean vehicle,1.0,white,pennsylvania,usa,7 days left,16,1110.0,Low,Classic,Heartland,Other,0
 358,6930,jeep,mpv,2019,clean vehicle,47798.0,red,florida,usa,22 hours left,7,0.14498211259649785,Medium,Recent,Jeep,Mid,0
-359,25,chevrolet,door,2008,salvage insurance,130623.0,white,california,usa,8 days left,18,0.0001913890249877511,High,Classic,Chevrolet,Mid,0
+359,25,chevrolet,door,2008,salvage insurance,130623.0,white,california,usa,8 days left,18,0.0001913890249877511,High,Classic,Chevrolet,Mid,1
 360,3440,ford,door,2015,clean vehicle,124542.0,white,georgia,usa,2 days left,11,0.027620982311330224,High,Old,Ford,Mid,0
 361,50412,ford,door,2017,clean vehicle,47129.0,black,michigan,usa,2 days left,9,1.0696371737746657,Medium,Old,Ford,Mid,0
-362,25,ford,pickup,1994,salvage insurance,206162.0,white,georgia,usa,2 days left,32,0.00012126327226514943,Very High,Classic,Ford,Mid,0
-363,950,ford,pk,2001,salvage insurance,229886.0,red,illinois,usa,17 hours left,25,0.004132465080670068,Very High,Classic,Ford,Mid,0
+362,25,ford,pickup,1994,salvage insurance,206162.0,white,georgia,usa,2 days left,32,0.00012126327226514943,Very High,Classic,Ford,Mid,1
+363,950,ford,pk,2001,salvage insurance,229886.0,red,illinois,usa,17 hours left,25,0.004132465080670068,Very High,Classic,Ford,Mid,1
 364,9270,gmc,mpv,2017,clean vehicle,19490.0,gray,virginia,usa,17 hours left,9,0.4756041249807603,Low,Old,Gmc,Mid,0
 365,11380,jeep,mpv,2019,clean vehicle,12038.0,black,michigan,usa,2 days left,7,0.9452612343217875,Low,Recent,Jeep,Mid,0
 366,5350,hyundai,mpv,2019,clean vehicle,43536.0,blue,florida,usa,22 hours left,7,0.12288398373797,Medium,Recent,Hyundai,Mid,0
-367,2725,chevrolet,door,2004,salvage insurance,308451.0,black,south carolina,usa,2 days left,22,0.008834437773138122,Very High,Classic,Chevrolet,Mid,0
+367,2725,chevrolet,door,2004,salvage insurance,308451.0,black,south carolina,usa,2 days left,22,0.008834437773138122,Very High,Classic,Chevrolet,Mid,1
 368,3790,ford,door,2015,clean vehicle,100893.0,gray,georgia,usa,2 days left,11,0.03756417626419807,High,Old,Ford,Mid,0
 369,40514,ford,door,2017,clean vehicle,90304.0,white,michigan,usa,20 hours left,9,0.44863518077625825,High,Old,Ford,Mid,0
 372,9190,gmc,mpv,2017,clean vehicle,31394.0,gray,virginia,usa,17 hours left,9,0.2927217709826406,Medium,Old,Gmc,Mid,0
 373,10330,infiniti,mpv,2019,clean vehicle,25933.0,gray,florida,usa,22 hours left,7,0.3983188092851084,Low,Recent,Infiniti,Luxury,0
-374,1000,acura,door,2008,salvage insurance,118250.0,gray,michigan,usa,2 days left,18,0.008456588104963171,High,Classic,Acura,Economy,0
-375,2925,bmw,door,2013,salvage insurance,46060.0,white,florida,usa,2 days left,13,0.06350274635809036,Medium,Old,Bmw,Luxury,0
+374,1000,acura,door,2008,salvage insurance,118250.0,gray,michigan,usa,2 days left,18,0.008456588104963171,High,Classic,Acura,Luxury,1
+375,2925,bmw,door,2013,salvage insurance,46060.0,white,florida,usa,2 days left,13,0.06350274635809036,Medium,Old,Bmw,Luxury,1
 376,3830,ford,door,2015,clean vehicle,50593.0,gold,georgia,usa,2 days left,11,0.07570067596948254,Medium,Old,Ford,Mid,0
 377,43402,ford,door,2017,clean vehicle,62387.0,blue,michigan,usa,2 days left,9,0.6956786561518241,Medium,Old,Ford,Mid,0
-378,1025,gmc,door,2009,salvage insurance,169634.0,black,michigan,usa,2 days left,17,0.006042385120995078,Very High,Classic,Gmc,Mid,0
+378,1025,gmc,door,2009,salvage insurance,169634.0,black,michigan,usa,2 days left,17,0.006042385120995078,Very High,Classic,Gmc,Mid,1
 379,17200,honda,van,2016,clean vehicle,72527.0,gray,new jersey,usa,2 hours left,10,0.2371497904257666,Medium,Old,Honda,Mid,0
-380,54680,harley-davidson,road/street,2016,clean vehicle,9502.0,black,virginia,usa,18 hours left,10,5.753972429759023,Low,Old,Harley-Davidson,Economy,0
+380,54680,harley-davidson,road/street,2016,clean vehicle,9502.0,black,virginia,usa,18 hours left,10,5.753972429759023,Low,Old,Harley-Davidson,Other,0
 381,6940,honda,door,2010,clean vehicle,217290.0,no_color,pennsylvania,usa,3 days left,16,0.03193873653303634,Very High,Classic,Honda,Mid,0
 382,13080,infiniti,mpv,2019,clean vehicle,17243.0,gray,florida,usa,22 hours left,7,0.7585247042449548,Low,Recent,Infiniti,Luxury,0
-383,25,chevrolet,door,2007,salvage insurance,194903.0,gray,virginia,usa,2 days left,19,0.0001282682756639166,Very High,Classic,Chevrolet,Mid,0
+383,25,chevrolet,door,2007,salvage insurance,194903.0,gray,virginia,usa,2 days left,19,0.0001282682756639166,Very High,Classic,Chevrolet,Mid,1
 384,10630,ford,door,2015,clean vehicle,82899.0,white,georgia,usa,2 days left,11,0.12822677925211098,High,Old,Ford,Mid,0
 385,43009,ford,door,2017,clean vehicle,76418.0,white,michigan,usa,2 days left,9,0.5628050615684581,Medium,Old,Ford,Mid,0
-386,25,gmc,door,2003,salvage insurance,138441.0,white,michigan,usa,2 days left,23,0.00018058103754640934,High,Classic,Gmc,Mid,0
-387,4600,ford,pickup,2006,salvage insurance,240740.0,brown,mississippi,usa,8 days left,20,0.019107671730199675,Very High,Classic,Ford,Mid,0
+386,25,gmc,door,2003,salvage insurance,138441.0,white,michigan,usa,2 days left,23,0.00018058103754640934,High,Classic,Gmc,Mid,1
+387,4600,ford,pickup,2006,salvage insurance,240740.0,brown,mississippi,usa,8 days left,20,0.019107671730199675,Very High,Classic,Ford,Mid,1
 388,4950,honda,mpv,2016,clean vehicle,71404.0,black,virginia,usa,17 hours left,10,0.06932287654926125,Medium,Old,Honda,Mid,0
 389,3760,hyundai,doors,2019,clean vehicle,30382.0,silver,florida,usa,22 hours left,7,0.12375341473850508,Medium,Recent,Hyundai,Mid,0
-390,3900,acura,door,2009,clean vehicle,179389.0,black,texas,usa,2 hours left,17,0.0217403422710296,Very High,Classic,Acura,Economy,0
+390,3900,acura,door,2009,clean vehicle,179389.0,black,texas,usa,2 hours left,17,0.0217403422710296,Very High,Classic,Acura,Luxury,0
 392,3830,ford,door,2015,clean vehicle,82534.0,silver,georgia,usa,2 days left,11,0.04640455564306052,High,Old,Ford,Mid,0
 393,53500,ford,door,2017,clean vehicle,55732.0,white,michigan,usa,20 hours left,9,0.9599339708969551,Medium,Old,Ford,Mid,0
-394,25,ford,door,2010,salvage insurance,198596.0,gray,michigan,usa,2 days left,16,0.0001258830697341853,Very High,Classic,Ford,Mid,0
-395,25,ford,door,1998,salvage insurance,300021.0,brown,arkansas,usa,17 hours left,28,8.332722267033751e-05,Very High,Classic,Ford,Mid,0
+394,25,ford,door,2010,salvage insurance,198596.0,gray,michigan,usa,2 days left,16,0.0001258830697341853,Very High,Classic,Ford,Mid,1
+395,25,ford,door,1998,salvage insurance,300021.0,brown,arkansas,usa,17 hours left,28,8.332722267033751e-05,Very High,Classic,Ford,Mid,1
 396,6240,honda,door,2015,clean vehicle,83623.0,silver,virginia,usa,2 days left,11,0.07461972639433656,High,Old,Honda,Mid,0
 397,4150,jeep,door,2014,clean vehicle,108895.0,white,new york,usa,2 days left,12,0.038109756097560975,High,Old,Jeep,Mid,0
-398,25,jeep,door,1999,salvage insurance,226972.0,black,florida,usa,16 hours left,27,0.0001101452595683187,Very High,Classic,Jeep,Mid,0
+398,25,jeep,door,1999,salvage insurance,226972.0,black,florida,usa,16 hours left,27,0.0001101452595683187,Very High,Classic,Jeep,Mid,1
 399,61200,bmw,series,2020,clean vehicle,7509.0,black,california,usa,7 days left,6,8.1491344873502,Low,Recent,Bmw,Luxury,0
 401,13500,bmw,series,2014,clean vehicle,33542.0,blue,new jersey,usa,2 days left,12,0.4024684733029246,Medium,Old,Bmw,Luxury,0
 402,6490,ford,door,2015,clean vehicle,74754.0,black,georgia,usa,2 days left,11,0.08681693532205204,Medium,Old,Ford,Mid,0
 403,51502,ford,door,2017,clean vehicle,27661.0,black,michigan,usa,2 days left,9,1.861832116260574,Low,Old,Ford,Mid,0
-404,250,ford,door,2010,salvage insurance,115241.0,white,michigan,usa,2 days left,16,0.0021693479807708997,High,Classic,Ford,Mid,0
-405,25,ford,door,1984,salvage insurance,41577.0,white,arkansas,usa,17 hours left,42,0.0006012795228245707,Medium,Classic,Ford,Mid,0
+404,250,ford,door,2010,salvage insurance,115241.0,white,michigan,usa,2 days left,16,0.0021693479807708997,High,Classic,Ford,Mid,1
+405,25,ford,door,1984,salvage insurance,41577.0,white,arkansas,usa,17 hours left,42,0.0006012795228245707,Medium,Classic,Ford,Mid,1
 406,8160,honda,van,2015,clean vehicle,109027.0,gray,virginia,usa,2 days left,11,0.07484315955534358,High,Old,Honda,Mid,0
 407,7770,jeep,door,2014,clean vehicle,72732.0,gray,new york,usa,2 days left,12,0.10682908720938226,Medium,Old,Jeep,Mid,0
-408,200,jeep,door,2001,salvage insurance,126400.0,green,maryland,usa,16 hours left,25,0.001582265963085735,High,Classic,Jeep,Mid,0
-409,25,audi,door,2008,salvage insurance,177422.0,black,texas,usa,17 hours left,18,0.00014090619592724732,Very High,Classic,Audi,Luxury,0
-411,1825,bmw,coupe,2008,salvage insurance,77984.0,white,georgia,usa,2 days left,18,0.023401936269795472,Medium,Classic,Bmw,Luxury,0
+408,200,jeep,door,2001,salvage insurance,126400.0,green,maryland,usa,16 hours left,25,0.001582265963085735,High,Classic,Jeep,Mid,1
+409,25,audi,door,2008,salvage insurance,177422.0,black,texas,usa,17 hours left,18,0.00014090619592724732,Very High,Classic,Audi,Luxury,1
+411,1825,bmw,coupe,2008,salvage insurance,77984.0,white,georgia,usa,2 days left,18,0.023401936269795472,Medium,Classic,Bmw,Luxury,1
 412,39800,bmw,series,2017,clean vehicle,23177.0,blue,california,usa,21 hours left,9,1.717145569074122,Low,Old,Bmw,Luxury,0
 413,9210,ford,door,2015,clean vehicle,26911.0,silver,georgia,usa,2 days left,11,0.3422265160523187,Low,Old,Ford,Mid,0
 414,58500,ford,srw,2019,clean vehicle,21527.0,blue,washington,usa,21 hours left,7,2.717391304347826,Low,Recent,Ford,Mid,0
-415,125,ford,door,2014,salvage insurance,56461.0,silver,michigan,usa,2 days left,12,0.0022138783606673513,Medium,Old,Ford,Mid,0
+415,125,ford,door,2014,salvage insurance,56461.0,silver,michigan,usa,2 days left,12,0.0022138783606673513,Medium,Old,Ford,Mid,1
 416,3960,honda,door,2015,clean vehicle,95128.0,white,virginia,usa,2 days left,11,0.041627684512609196,High,Old,Honda,Mid,0
 417,5998,hyundai,doors,2014,clean vehicle,122975.0,phantom black,new york,usa,5 days left,12,0.048773744470465785,High,Old,Hyundai,Mid,0
 418,3700,honda,doors,2014,clean vehicle,162824.0,blue,new york,usa,2 days left,12,0.02272378320282512,Very High,Old,Honda,Mid,0
@@ -396,65 +396,65 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 427,2630,nissan,doors,2018,clean vehicle,36739.0,gray,california,usa,20 hours left,8,0.07158410451823626,Medium,Old,Nissan,Mid,0
 428,5690,nissan,mpv,2017,clean vehicle,42616.0,blue,new jersey,usa,17 hours left,9,0.13351479456554896,Medium,Old,Nissan,Mid,0
 429,19500,audi,q5,2017,clean vehicle,65833.0,blue,texas,usa,3 days left,9,0.2961995321566364,Medium,Old,Audi,Luxury,0
-430,450,chevrolet,coupe,2008,salvage insurance,123515.0,yellow,minnesota,usa,2 days left,18,0.003643252696006995,High,Classic,Chevrolet,Mid,0
+430,450,chevrolet,coupe,2008,salvage insurance,123515.0,yellow,minnesota,usa,2 days left,18,0.003643252696006995,High,Classic,Chevrolet,Mid,1
 431,20400,cadillac,door,2015,clean vehicle,36122.0,white,wisconsin,usa,2 days left,11,0.5647371480774022,Medium,Old,Cadillac,Luxury,0
 432,4320,chevrolet,door,2011,clean vehicle,88359.0,brown,florida,usa,22 hours left,15,0.0488909008601177,High,Old,Chevrolet,Mid,0
 433,33001,ford,f-150,2017,clean vehicle,35905.0,gray,michigan,usa,2 days left,9,0.919094301788002,Medium,Old,Ford,Mid,0
-434,10000,ford,door,2017,salvage insurance,35747.0,red,arkansas,usa,17 hours left,9,0.2797359292827571,Medium,Old,Ford,Mid,0
+434,10000,ford,door,2017,salvage insurance,35747.0,red,arkansas,usa,17 hours left,9,0.2797359292827571,Medium,Old,Ford,Mid,1
 436,5790,gmc,door,2012,clean vehicle,105020.0,white,utah,usa,19 hours left,14,0.0551318307767018,High,Old,Gmc,Mid,0
 437,14750,infiniti,mpv,2019,clean vehicle,11047.0,black,texas,usa,17 hours left,7,1.3350832729905866,Low,Recent,Infiniti,Luxury,0
 438,4010,hyundai,doors,2019,clean vehicle,31233.0,silver,ohio,usa,2 days left,7,0.12838573349554971,Medium,Recent,Hyundai,Mid,0
-439,40000,mercedes-benz,gle,2019,clean vehicle,19427.0,white,california,usa,1 days left,7,2.0588840848260244,Low,Recent,Mercedes-Benz,Economy,0
+439,40000,mercedes-benz,gle,2019,clean vehicle,19427.0,white,california,usa,1 days left,7,2.0588840848260244,Low,Recent,Mercedes-Benz,Luxury,0
 440,13000,kia,sportage,2017,clean vehicle,71991.0,silver,new jersey,usa,2 hours left,9,0.18057561951327925,Medium,Old,Kia,Mid,0
 441,3550,nissan,doors,2018,clean vehicle,29043.0,blue,california,usa,20 hours left,8,0.12222834320341551,Low,Old,Nissan,Mid,0
 442,3040,nissan,doors,2017,clean vehicle,36064.0,gray,new jersey,usa,17 hours left,9,0.08429225010397892,Medium,Old,Nissan,Mid,0
 444,36400,audi,5,2015,clean vehicle,47213.0,black,wisconsin,usa,2 days left,11,0.7709577667640954,Medium,Old,Audi,Luxury,0
 445,4480,ford,door,2011,clean vehicle,116480.0,black,florida,usa,23 hours left,15,0.038461208265725744,High,Old,Ford,Mid,0
 446,31003,ford,door,2017,clean vehicle,72084.0,red,michigan,usa,20 hours left,9,0.43008947769993755,Medium,Old,Ford,Mid,0
-447,75,ford,pickup,2001,salvage insurance,295780.0,gold,arkansas,usa,17 hours left,25,0.00025356598294008065,Very High,Classic,Ford,Mid,0
+447,75,ford,pickup,2001,salvage insurance,295780.0,gold,arkansas,usa,17 hours left,25,0.00025356598294008065,Very High,Classic,Ford,Mid,1
 448,8850,gmc,door,2011,clean vehicle,148035.0,white,utah,usa,19 hours left,15,0.05978275554594828,High,Old,Gmc,Mid,0
 449,14750,infiniti,mpv,2019,clean vehicle,11396.0,white,texas,usa,17 hours left,7,1.2942002281302096,Low,Recent,Infiniti,Luxury,0
 450,4690,hyundai,mpv,2019,clean vehicle,33785.0,silver,ohio,usa,2 days left,7,0.13881489374297046,Medium,Recent,Hyundai,Mid,0
-451,23000,land,sport,2018,clean vehicle,20103.0,black,california,usa,1 days left,8,1.144050935137286,Low,Old,Land,Economy,0
-452,46900,land,discovery,2018,clean vehicle,32387.0,black,florida,usa,2 days left,8,1.4480671853773002,Medium,Old,Land,Economy,0
-453,10740,mercedes-benz,doors,2018,clean vehicle,48140.0,white,california,usa,20 hours left,8,0.22309465943790116,Medium,Old,Mercedes-Benz,Economy,0
+451,23000,land,sport,2018,clean vehicle,20103.0,black,california,usa,1 days left,8,1.144050935137286,Low,Old,Land,Luxury,0
+452,46900,land,discovery,2018,clean vehicle,32387.0,black,florida,usa,2 days left,8,1.4480671853773002,Medium,Old,Land,Luxury,0
+453,10740,mercedes-benz,doors,2018,clean vehicle,48140.0,white,california,usa,20 hours left,8,0.22309465943790116,Medium,Old,Mercedes-Benz,Luxury,0
 454,3160,nissan,doors,2017,clean vehicle,34861.0,gray,new jersey,usa,17 hours left,9,0.09064310710802594,Medium,Old,Nissan,Mid,0
 456,3450,chrysler,door,2011,clean vehicle,114119.0,gold,florida,usa,22 hours left,15,0.030231335436382754,High,Old,Chrysler,Mid,0
 457,27102,ford,f-150,2017,clean vehicle,34165.0,red,michigan,usa,2 days left,9,0.793244746238951,Medium,Old,Ford,Mid,0
-458,500,gmc,door,2018,salvage insurance,27442.0,black,arkansas,usa,17 hours left,8,0.01821958240717123,Low,Old,Gmc,Mid,0
+458,500,gmc,door,2018,salvage insurance,27442.0,black,arkansas,usa,17 hours left,8,0.01821958240717123,Low,Old,Gmc,Mid,1
 459,5100,gmc,door,2011,clean vehicle,144792.0,white,utah,usa,19 hours left,15,0.03522269722983846,High,Old,Gmc,Mid,0
 460,15010,infiniti,mpv,2019,clean vehicle,11394.0,beige,texas,usa,17 hours left,7,1.3172444054409829,Low,Recent,Infiniti,Luxury,0
 461,5800,jeep,mpv,2019,clean vehicle,30546.0,silver,ohio,usa,2 days left,7,0.18987134579500442,Medium,Recent,Jeep,Mid,0
-462,23200,land,sport,2018,clean vehicle,23745.0,black,california,usa,1 days left,8,0.9770066537522109,Low,Old,Land,Economy,0
+462,23200,land,sport,2018,clean vehicle,23745.0,black,california,usa,1 days left,8,0.9770066537522109,Low,Old,Land,Luxury,0
 463,8000,hyundai,door,2015,clean vehicle,88274.0,red,pennsylvania,usa,7 days left,11,0.09062588501840839,High,Old,Hyundai,Mid,0
 464,3390,nissan,doors,2018,clean vehicle,38349.0,gray,california,usa,20 hours left,8,0.08839634941329856,Medium,Old,Nissan,Mid,0
 465,3140,nissan,doors,2017,clean vehicle,30142.0,white,new jersey,usa,17 hours left,9,0.10417012241648144,Medium,Old,Nissan,Mid,0
-466,25,chevrolet,door,2007,salvage insurance,267834.0,black,texas,usa,17 hours left,19,9.334104952676088e-05,Very High,Classic,Chevrolet,Mid,0
+466,25,chevrolet,door,2007,salvage insurance,267834.0,black,texas,usa,17 hours left,19,9.334104952676088e-05,Very High,Classic,Chevrolet,Mid,1
 467,15000,bmw,door,2014,clean vehicle,44730.0,silver,illinois,usa,21 hours left,12,0.3353379088328005,Medium,Old,Bmw,Luxury,0
 468,10440,chevrolet,cab,2011,clean vehicle,92476.0,blue,florida,usa,23 hours left,15,0.11289293554072904,High,Old,Chevrolet,Mid,0
 469,23911,ford,f-150,2017,clean vehicle,25698.0,black,michigan,usa,20 hours left,9,0.9304253083777579,Low,Old,Ford,Mid,0
-470,25,ford,pk,2010,salvage insurance,155242.0,gray,oklahoma,usa,17 hours left,16,0.0001610378567793717,Very High,Classic,Ford,Mid,0
+470,25,ford,pk,2010,salvage insurance,155242.0,gray,oklahoma,usa,17 hours left,16,0.0001610378567793717,Very High,Classic,Ford,Mid,1
 471,21400,gmc,acadia,2018,clean vehicle,54332.0,gray,new jersey,usa,2 hours left,8,0.3938674470395524,Medium,Old,Gmc,Mid,0
 472,5380,gmc,cab,2011,clean vehicle,119215.0,white,utah,usa,19 hours left,15,0.04512817071534022,High,Old,Gmc,Mid,0
 473,11000,jeep,mpv,2019,clean vehicle,8930.0,red,michigan,usa,2 days left,7,1.2316649871235024,Low,Recent,Jeep,Mid,0
 474,4950,jeep,mpv,2019,clean vehicle,46985.0,silver,ohio,usa,2 days left,7,0.10535052994509003,Medium,Recent,Jeep,Mid,0
-475,22500,land,sport,2018,clean vehicle,30220.0,black,california,usa,2 days left,8,0.7445154031964528,Medium,Old,Land,Economy,0
+475,22500,land,sport,2018,clean vehicle,30220.0,black,california,usa,2 days left,8,0.7445154031964528,Medium,Old,Land,Luxury,0
 476,30300,maserati,ghibli,2017,clean vehicle,37021.0,black,florida,usa,2 days left,9,0.8184322835071038,Medium,Old,Maserati,Luxury,0
 477,2630,nissan,doors,2018,clean vehicle,43152.0,white,california,usa,20 hours left,8,0.060945936551340577,Medium,Old,Nissan,Mid,0
 478,3140,nissan,doors,2017,clean vehicle,34318.0,silver,new jersey,usa,17 hours left,9,0.09149450741571724,Medium,Old,Nissan,Mid,0
-479,2300,chevrolet,door,2011,salvage insurance,88287.0,white,arkansas,usa,17 hours left,15,0.026051105472997462,High,Old,Chevrolet,Mid,0
+479,2300,chevrolet,door,2011,salvage insurance,88287.0,white,arkansas,usa,17 hours left,15,0.026051105472997462,High,Old,Chevrolet,Mid,1
 480,4310,chevrolet,door,2011,clean vehicle,105486.0,black,florida,usa,22 hours left,15,0.04085811521798895,High,Old,Chevrolet,Mid,0
 481,26012,ford,door,2017,clean vehicle,19850.0,black,michigan,usa,20 hours left,9,1.3103621983779155,Low,Old,Ford,Mid,0
-482,75,ford,door,2014,salvage insurance,116535.0,silver,oklahoma,usa,17 hours left,12,0.0006435779501613235,High,Old,Ford,Mid,0
+482,75,ford,door,2014,salvage insurance,116535.0,silver,oklahoma,usa,17 hours left,12,0.0006435779501613235,High,Old,Ford,Mid,1
 483,48500,gmc,1500,2019,clean vehicle,15777.0,black,pennsylvania,usa,1 days left,7,3.0739003676004564,Low,Recent,Gmc,Mid,0
 484,3330,gmc,mpv,2009,clean vehicle,87448.0,white,utah,usa,19 hours left,17,0.03807933767109973,High,Classic,Gmc,Mid,0
 485,11200,jeep,mpv,2019,clean vehicle,8395.0,yellow,michigan,usa,2 days left,7,1.3339685564554549,Low,Recent,Jeep,Mid,0
 486,4730,hyundai,mpv,2019,clean vehicle,30121.0,red,ohio,usa,2 days left,7,0.15702808578447647,Medium,Recent,Hyundai,Mid,0
-487,24900,mercedes-benz,glc,2018,clean vehicle,33687.0,white,california,usa,1 days left,8,0.7391355972453099,Medium,Old,Mercedes-Benz,Economy,0
-488,29400,mercedes-benz,e-class,2017,clean vehicle,37561.0,blue,florida,usa,2 days left,9,0.7827059262020126,Medium,Old,Mercedes-Benz,Economy,0
+487,24900,mercedes-benz,glc,2018,clean vehicle,33687.0,white,california,usa,1 days left,8,0.7391355972453099,Medium,Old,Mercedes-Benz,Luxury,0
+488,29400,mercedes-benz,e-class,2017,clean vehicle,37561.0,blue,florida,usa,2 days left,9,0.7827059262020126,Medium,Old,Mercedes-Benz,Luxury,0
 489,8350,nissan,cab,2018,clean vehicle,32256.0,gray,california,usa,20 hours left,8,0.258858542331897,Medium,Old,Nissan,Mid,0
 491,3210,nissan,doors,2017,clean vehicle,25255.0,black,new jersey,usa,17 hours left,9,0.12709851124485272,Low,Old,Nissan,Mid,0
-492,25,chevrolet,van,2006,salvage insurance,165327.0,white,arkansas,usa,17 hours left,20,0.00015121455530823575,Very High,Classic,Chevrolet,Mid,0
+492,25,chevrolet,van,2006,salvage insurance,165327.0,white,arkansas,usa,17 hours left,20,0.00015121455530823575,Very High,Classic,Chevrolet,Mid,1
 493,4200,chevrolet,cutaway,2006,clean vehicle,118009.0,white,wisconsin,usa,21 hours left,20,0.03559020421998136,High,Classic,Chevrolet,Mid,0
 494,8430,chevrolet,utility,2011,clean vehicle,114547.0,black,florida,usa,22 hours left,15,0.07359360268184517,High,Old,Chevrolet,Mid,0
 495,25503,ford,f-150,2017,clean vehicle,18647.0,black,michigan,usa,9 minutes,9,1.3675997425997426,Low,Old,Ford,Mid,0
@@ -462,10 +462,10 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 498,3900,honda,doors,2017,clean vehicle,47970.0,blue,virginia,usa,2 days left,9,0.08129911821725626,Medium,Old,Honda,Mid,0
 499,11200,jeep,mpv,2019,clean vehicle,12905.0,gray,michigan,usa,2 days left,7,0.8678134201146753,Low,Recent,Jeep,Mid,0
 500,8610,jeep,mpv,2019,clean vehicle,22123.0,silver,ohio,usa,2 days left,7,0.3891701319833665,Low,Recent,Jeep,Mid,0
-501,28000,mercedes-benz,gle,2018,clean vehicle,40780.0,white,california,usa,1 days left,8,0.6865942473210563,Medium,Old,Mercedes-Benz,Economy,0
-502,84900,mercedes-benz,sl-class,2017,clean vehicle,25302.0,silver,florida,usa,2 days left,9,3.3553333596806705,Low,Old,Mercedes-Benz,Economy,0
+501,28000,mercedes-benz,gle,2018,clean vehicle,40780.0,white,california,usa,1 days left,8,0.6865942473210563,Medium,Old,Mercedes-Benz,Luxury,0
+502,84900,mercedes-benz,sl-class,2017,clean vehicle,25302.0,silver,florida,usa,2 days left,9,3.3553333596806705,Low,Old,Mercedes-Benz,Luxury,0
 503,10840,lexus,mpv,2017,clean vehicle,36596.0,black,california,usa,20 hours left,9,0.29619914200617536,Medium,Old,Lexus,Luxury,0
-504,100,peterbilt,truck,2012,salvage insurance,0.0,blue,florida,usa,17 hours left,14,100.0,,Old,Peterbilt,Economy,0
+504,100,peterbilt,truck,2012,salvage insurance,0.0,blue,florida,usa,17 hours left,14,100.0,Low,Old,Peterbilt,Other,1
 505,11050,ram,door,2017,clean vehicle,30421.0,white,new jersey,usa,17 hours left,9,0.36322398264413913,Medium,Old,Ram,Mid,0
 507,1000,chevrolet,door,2005,clean vehicle,135675.0,gray,wisconsin,usa,21 hours left,21,0.007370500309561013,High,Classic,Chevrolet,Mid,0
 508,3570,dodge,door,2015,clean vehicle,17355.0,black,georgia,usa,2 days left,11,0.20569255588845356,Low,Old,Dodge,Mid,0
@@ -475,7 +475,7 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 513,4650,hyundai,mpv,2019,clean vehicle,27492.0,white,ohio,usa,2 days left,7,0.1691339613719856,Low,Recent,Hyundai,Mid,0
 515,3820,nissan,mpv,2016,clean vehicle,41654.0,blue,california,usa,20 hours left,10,0.09170567758972513,Medium,Old,Nissan,Mid,0
 517,2900,nissan,doors,2017,clean vehicle,31954.0,gray,new jersey,usa,17 hours left,9,0.0907526208731028,Medium,Old,Nissan,Mid,0
-518,50,chevrolet,door,2008,salvage insurance,172102.0,blue,texas,usa,17 hours left,18,0.00029052369801804733,Very High,Classic,Chevrolet,Mid,0
+518,50,chevrolet,door,2008,salvage insurance,172102.0,blue,texas,usa,17 hours left,18,0.00029052369801804733,Very High,Classic,Chevrolet,Mid,1
 519,5100,chevrolet,pickup,2004,clean vehicle,173321.0,gray,wisconsin,usa,21 hours left,22,0.0294250008654412,Very High,Classic,Chevrolet,Mid,0
 520,4700,dodge,door,2015,clean vehicle,93423.0,red,georgia,usa,2 days left,11,0.05030827196437746,High,Old,Dodge,Mid,0
 521,29502,ford,f-150,2017,clean vehicle,14053.0,red,michigan,usa,2 days left,9,2.0991888430340118,Low,Old,Ford,Mid,0
@@ -487,14 +487,14 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 529,3020,nissan,doors,2017,clean vehicle,33599.0,white,new jersey,usa,17 hours left,9,0.08988095238095238,Medium,Old,Nissan,Mid,0
 532,3870,ford,door,2010,clean vehicle,185983.0,white,florida,usa,22 hours left,16,0.02080824156916724,Very High,Classic,Ford,Mid,0
 533,24811,ford,door,2017,clean vehicle,28464.0,red,michigan,usa,21 hours left,9,0.8716318285613912,Low,Old,Ford,Mid,0
-534,75,ford,door,2007,salvage insurance,154989.0,blue,oklahoma,usa,17 hours left,19,0.0004839021872378863,Very High,Classic,Ford,Mid,0
+534,75,ford,door,2007,salvage insurance,154989.0,blue,oklahoma,usa,17 hours left,19,0.0004839021872378863,Very High,Classic,Ford,Mid,1
 535,5420,honda,doors,2017,clean vehicle,16702.0,black,virginia,usa,2 days left,9,0.3244926061186613,Low,Old,Honda,Mid,0
 536,11100,jeep,mpv,2019,clean vehicle,11449.0,yellow,michigan,usa,2 days left,7,0.9694323144104804,Low,Recent,Jeep,Mid,0
 537,4750,hyundai,mpv,2019,clean vehicle,25847.0,gray,ohio,usa,2 days left,7,0.18376663571649643,Low,Recent,Hyundai,Mid,0
-538,17900,mercedes-benz,door,2015,clean vehicle,49772.0,gray,florida,usa,2 days left,11,0.3596327326060314,Medium,Old,Mercedes-Benz,Economy,0
+538,17900,mercedes-benz,door,2015,clean vehicle,49772.0,gray,florida,usa,2 days left,11,0.3596327326060314,Medium,Old,Mercedes-Benz,Luxury,0
 539,3800,nissan,door,2015,clean vehicle,83915.0,black,california,usa,20 hours left,11,0.04528337861671195,High,Old,Nissan,Mid,0
 540,3160,nissan,doors,2017,clean vehicle,40306.0,silver,new jersey,usa,17 hours left,9,0.07839829310045401,Medium,Old,Nissan,Mid,0
-541,25,chevrolet,pickup,2010,salvage insurance,149189.0,white,colorado,usa,17 hours left,16,0.0001675715530531537,High,Classic,Chevrolet,Mid,0
+541,25,chevrolet,pickup,2010,salvage insurance,149189.0,white,colorado,usa,17 hours left,16,0.0001675715530531537,High,Classic,Chevrolet,Mid,1
 542,1200,chevrolet,door,2001,clean vehicle,149543.0,red,wisconsin,usa,21 hours left,25,0.008024394158241053,High,Classic,Chevrolet,Mid,0
 543,6470,chevrolet,coupe,2010,clean vehicle,69622.0,yellow,florida,usa,22 hours left,16,0.09292906079887393,Medium,Classic,Chevrolet,Mid,0
 544,26400,ford,door,2017,clean vehicle,36295.0,red,michigan,usa,19 hours left,9,0.727352876350011,Medium,Old,Ford,Mid,0
@@ -502,7 +502,7 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 547,6900,honda,mpv,2017,clean vehicle,44129.0,brown,minnesota,usa,18 hours left,9,0.15635622025832766,Medium,Old,Honda,Mid,0
 548,11030,jeep,mpv,2019,clean vehicle,10861.0,yellow,michigan,usa,2 days left,7,1.0154667648683484,Low,Recent,Jeep,Mid,0
 549,3460,hyundai,door,2012,clean vehicle,142106.0,white,mississippi,usa,2 days left,14,0.02434785056330793,High,Old,Hyundai,Mid,0
-550,18000,mercedes-benz,door,2015,clean vehicle,82411.0,black,florida,usa,2 days left,11,0.21841479396204436,High,Old,Mercedes-Benz,Economy,0
+550,18000,mercedes-benz,door,2015,clean vehicle,82411.0,black,florida,usa,2 days left,11,0.21841479396204436,High,Old,Mercedes-Benz,Luxury,0
 551,3250,hyundai,door,2015,clean vehicle,111612.0,gray,california,usa,20 hours left,11,0.02911847186259665,High,Old,Hyundai,Mid,0
 552,3210,nissan,doors,2017,clean vehicle,35251.0,gray,new jersey,usa,17 hours left,9,0.09105866333825031,Medium,Old,Nissan,Mid,0
 553,13200,chevrolet,door,2017,clean vehicle,50408.0,black,pennsylvania,usa,2 days left,9,0.26185800154734273,Medium,Old,Chevrolet,Mid,0
@@ -547,7 +547,7 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 592,26902,ford,f-150,2019,clean vehicle,23964.0,white,michigan,usa,1 minutes,7,1.1225537241810974,Low,Recent,Ford,Mid,0
 593,10950,chevrolet,door,2015,clean vehicle,58504.0,red,florida,usa,22 hours left,11,0.18716349029997437,Medium,Old,Chevrolet,Mid,0
 594,27402,ford,f-150,2019,clean vehicle,20154.0,white,michigan,usa,1 minutes,7,1.359563383775738,Low,Recent,Ford,Mid,0
-595,16900,acura,mdx,2014,clean vehicle,63500.0,silver,florida,usa,1 days left,12,0.2661375411410844,Medium,Old,Acura,Economy,0
+595,16900,acura,mdx,2014,clean vehicle,63500.0,silver,florida,usa,1 days left,12,0.2661375411410844,Medium,Old,Acura,Luxury,0
 596,25600,ford,f-150,2019,clean vehicle,23294.0,silver,michigan,usa,19 hours left,7,1.0989482721614081,Low,Recent,Ford,Mid,0
 597,29700,bmw,series,2016,clean vehicle,24293.0,no_color,texas,usa,1 days left,10,1.2225240800197579,Low,Old,Bmw,Luxury,0
 598,27702,ford,f-150,2019,clean vehicle,20343.0,red,michigan,usa,1 minutes,7,1.3616791191506095,Low,Recent,Ford,Mid,0
@@ -854,12 +854,12 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 899,8500,dodge,journey,2017,clean vehicle,62224.0,black,missouri,usa,7 days left,9,0.13660104459622338,Medium,Old,Dodge,Mid,0
 900,9800,dodge,door,2013,clean vehicle,86500.0,white,missouri,usa,8 days left,13,0.11329348793655565,High,Old,Dodge,Mid,0
 901,4200,dodge,door,2014,clean vehicle,144725.0,gray,nevada,usa,22 hours left,12,0.02902035570664566,High,Old,Dodge,Mid,0
-902,2500,dodge,van,2013,salvage insurance,163260.0,red,tennessee,usa,15 hours left,13,0.015312903877839778,Very High,Old,Dodge,Mid,0
+902,2500,dodge,van,2013,salvage insurance,163260.0,red,tennessee,usa,15 hours left,13,0.015312903877839778,Very High,Old,Dodge,Mid,1
 903,28700,dodge,charger,2018,clean vehicle,19636.0,blue,california,usa,21 hours left,8,1.4615267097825533,Low,Old,Dodge,Mid,0
 904,18500,dodge,challenger,2018,clean vehicle,34272.0,gray,california,usa,2 days left,8,0.5397835030490473,Medium,Old,Dodge,Mid,0
 905,17300,dodge,challenger,2018,clean vehicle,42909.0,no_color,california,usa,2 days left,8,0.4031694243766022,Medium,Old,Dodge,Mid,0
 906,7100,dodge,door,2016,clean vehicle,55749.0,gray,louisiana,usa,8 days left,10,0.1273542600896861,Medium,Old,Dodge,Mid,0
-907,3250,dodge,door,2015,salvage insurance,89142.0,white,minnesota,usa,16 hours left,11,0.03645827490661073,High,Old,Dodge,Mid,0
+907,3250,dodge,door,2015,salvage insurance,89142.0,white,minnesota,usa,16 hours left,11,0.03645827490661073,High,Old,Dodge,Mid,1
 908,30700,dodge,durango,2017,clean vehicle,20328.0,no_color,california,usa,21 hours left,9,1.5101579025038123,Low,Old,Dodge,Mid,0
 909,3000,dodge,door,2012,clean vehicle,149332.0,gray,missouri,usa,9 days left,14,0.02008933055654142,High,Old,Dodge,Mid,0
 910,26500,dodge,durango,2019,clean vehicle,28551.0,gray,california,usa,8 days left,7,0.9281311291678341,Low,Recent,Dodge,Mid,0
@@ -891,7 +891,7 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 936,13300,dodge,caravan,2018,clean vehicle,48681.0,gray,california,usa,8 days left,8,0.273201594018323,Medium,Old,Dodge,Mid,0
 937,13100,dodge,caravan,2018,clean vehicle,42621.0,silver,california,usa,8 days left,8,0.30735301018253486,Medium,Old,Dodge,Mid,0
 938,15500,dodge,caravan,2017,clean vehicle,27761.0,silver,california,usa,8 days left,9,0.5583171241265038,Low,Old,Dodge,Mid,0
-939,4500,dodge,door,2013,salvage insurance,107768.0,white,california,usa,18 hours left,13,0.04175597806419286,High,Old,Dodge,Mid,0
+939,4500,dodge,door,2013,salvage insurance,107768.0,white,california,usa,18 hours left,13,0.04175597806419286,High,Old,Dodge,Mid,1
 940,28400,dodge,durango,2019,clean vehicle,14355.0,gray,colorado,usa,3 days left,7,1.978266926720535,Low,Recent,Dodge,Mid,0
 941,17400,dodge,caravan,2019,clean vehicle,9467.0,gray,colorado,usa,3 days left,7,1.837769328263625,Low,Recent,Dodge,Mid,0
 942,6000,dodge,door,2014,clean vehicle,122837.0,silver,florida,usa,53 minutes,12,0.04884482000683828,High,Old,Dodge,Mid,0
@@ -902,8 +902,8 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 947,17200,dodge,journey,2019,clean vehicle,13944.0,blue,virginia,usa,2 days left,7,1.2334169953388312,Low,Recent,Dodge,Mid,0
 948,15000,dodge,door,2016,clean vehicle,26922.0,blue,oklahoma,usa,21 hours left,10,0.55714444898414,Low,Old,Dodge,Mid,0
 949,17500,dodge,journey,2019,clean vehicle,12690.0,gray,virginia,usa,2 days left,7,1.3789299503585217,Low,Recent,Dodge,Mid,0
-950,1300,dodge,door,2013,salvage insurance,239822.0,gray,michigan,usa,2 days left,13,0.005420664406666584,Very High,Old,Dodge,Mid,0
-951,1750,dodge,door,2014,salvage insurance,74975.0,red,nevada,usa,3 days left,12,0.023340802390098166,Medium,Old,Dodge,Mid,0
+950,1300,dodge,door,2013,salvage insurance,239822.0,gray,michigan,usa,2 days left,13,0.005420664406666584,Very High,Old,Dodge,Mid,1
+951,1750,dodge,door,2014,salvage insurance,74975.0,red,nevada,usa,3 days left,12,0.023340802390098166,Medium,Old,Dodge,Mid,1
 952,16300,dodge,caravan,2019,clean vehicle,28289.0,red,florida,usa,21 hours left,7,0.576175326970661,Low,Recent,Dodge,Mid,0
 953,15700,dodge,caravan,2019,clean vehicle,38041.0,red,florida,usa,21 hours left,7,0.4127017506965985,Medium,Recent,Dodge,Mid,0
 954,10000,dodge,journey,2017,clean vehicle,52386.0,silver,florida,usa,2 days left,9,0.19088705213125393,Medium,Old,Dodge,Mid,0
@@ -934,7 +934,7 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 979,22500,dodge,challenger,2019,clean vehicle,5000.0,gray,south carolina,usa,21 hours left,7,4.499100179964008,Low,Recent,Dodge,Mid,0
 980,7700,dodge,door,2015,clean vehicle,62683.0,white,west virginia,usa,2 days left,11,0.12283836385680556,Medium,Old,Dodge,Mid,0
 981,4500,dodge,van,2013,clean vehicle,107224.0,white,florida,usa,4 days left,13,0.04196782466775472,High,Old,Dodge,Mid,0
-982,2200,dodge,door,2013,salvage insurance,184905.0,gray,illinois,usa,16 hours left,13,0.01189793733031919,Very High,Old,Dodge,Mid,0
+982,2200,dodge,door,2013,salvage insurance,184905.0,gray,illinois,usa,16 hours left,13,0.01189793733031919,Very High,Old,Dodge,Mid,1
 983,21500,dodge,charger,2019,clean vehicle,35153.0,black,pennsylvania,usa,6 days left,7,0.611594697616203,Medium,Recent,Dodge,Mid,0
 984,18800,dodge,challenger,2019,clean vehicle,26474.0,orange,pennsylvania,usa,6 days left,7,0.7101038715769594,Low,Recent,Dodge,Mid,0
 985,21800,dodge,charger,2019,clean vehicle,30943.0,red,pennsylvania,usa,6 days left,7,0.704498448810755,Medium,Recent,Dodge,Mid,0
@@ -989,7 +989,7 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 1034,15500,dodge,caravan,2018,clean vehicle,37352.0,red,pennsylvania,usa,6 days left,8,0.414959976440982,Medium,Old,Dodge,Mid,0
 1035,24900,dodge,challenger,2017,clean vehicle,23030.0,green,michigan,usa,21 hours left,9,1.0811514914680214,Low,Old,Dodge,Mid,0
 1036,15500,dodge,journey,2018,clean vehicle,30671.0,red,pennsylvania,usa,6 days left,8,0.5053468961919666,Medium,Old,Dodge,Mid,0
-1037,7600,dodge,door,2012,salvage insurance,79544.0,white,texas,usa,17 hours left,14,0.0955434031051606,Medium,Old,Dodge,Mid,0
+1037,7600,dodge,door,2012,salvage insurance,79544.0,white,texas,usa,17 hours left,14,0.0955434031051606,Medium,Old,Dodge,Mid,1
 1038,18400,dodge,journey,2017,clean vehicle,15027.0,black,michigan,usa,21 hours left,9,1.224381155177003,Low,Old,Dodge,Mid,0
 1039,14700,dodge,caravan,2018,clean vehicle,29115.0,white,florida,usa,24 hours left,8,0.5048770435499382,Low,Old,Dodge,Mid,0
 1040,3900,dodge,door,2015,clean vehicle,93604.0,white,florida,usa,2 days left,11,0.04166444100208322,High,Old,Dodge,Mid,0
@@ -1024,15 +1024,15 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 1069,18500,dodge,door,2012,clean vehicle,101017.0,white,mississippi,usa,21 hours left,14,0.18313567878991863,High,Old,Dodge,Mid,0
 1070,18300,dodge,challenger,2019,clean vehicle,13906.0,black,pennsylvania,usa,2 days left,7,1.3158840871503559,Low,Recent,Dodge,Mid,0
 1071,21000,dodge,charger,2019,clean vehicle,20601.0,gray,pennsylvania,usa,3 days left,7,1.019318512765751,Low,Recent,Dodge,Mid,0
-1072,1300,dodge,van,2013,salvage insurance,135561.0,white,tennessee,usa,2 days left,13,0.009589708030273971,High,Old,Dodge,Mid,0
+1072,1300,dodge,van,2013,salvage insurance,135561.0,white,tennessee,usa,2 days left,13,0.009589708030273971,High,Old,Dodge,Mid,1
 1073,11900,dodge,charger,2019,clean vehicle,23421.0,gray,pennsylvania,usa,2 days left,7,0.5080693365212193,Low,Recent,Dodge,Mid,0
-1074,950,dodge,van,2012,salvage insurance,145174.0,white,maryland,usa,2 days left,14,0.006543826416394007,High,Old,Dodge,Mid,0
+1074,950,dodge,van,2012,salvage insurance,145174.0,white,maryland,usa,2 days left,14,0.006543826416394007,High,Old,Dodge,Mid,1
 1075,26800,dodge,durango,2019,clean vehicle,21309.0,gray,pennsylvania,usa,2 days left,7,1.2576255279211637,Low,Recent,Dodge,Mid,0
-1076,800,dodge,van,2012,salvage insurance,217576.0,orange,north carolina,usa,2 days left,14,0.003676859226848426,Very High,Old,Dodge,Mid,0
+1076,800,dodge,van,2012,salvage insurance,217576.0,orange,north carolina,usa,2 days left,14,0.003676859226848426,Very High,Old,Dodge,Mid,1
 1077,21000,dodge,caravan,2019,clean vehicle,10350.0,white,pennsylvania,usa,2 days left,7,2.028789488938267,Low,Recent,Dodge,Mid,0
-1078,1900,dodge,door,2012,salvage insurance,157636.0,orange,georgia,usa,2 days left,14,0.012053007859829863,Very High,Old,Dodge,Mid,0
+1078,1900,dodge,door,2012,salvage insurance,157636.0,orange,georgia,usa,2 days left,14,0.012053007859829863,Very High,Old,Dodge,Mid,1
 1079,33500,dodge,durango,2019,clean vehicle,8605.0,white,pennsylvania,usa,3 days left,7,3.8926330467115964,Low,Recent,Dodge,Mid,0
-1080,900,dodge,door,2013,salvage insurance,139404.0,blue,connecticut,usa,2 days left,13,0.006456009468813887,High,Old,Dodge,Mid,0
+1080,900,dodge,door,2013,salvage insurance,139404.0,blue,connecticut,usa,2 days left,13,0.006456009468813887,High,Old,Dodge,Mid,1
 1081,21000,dodge,caravan,2019,clean vehicle,10170.0,gray,pennsylvania,usa,2 days left,7,2.064693737095664,Low,Recent,Dodge,Mid,0
 1082,26800,dodge,durango,2019,clean vehicle,22272.0,silver,pennsylvania,usa,2 days left,7,1.2032505724419702,Low,Recent,Dodge,Mid,0
 1083,5700,dodge,van,2016,clean vehicle,101906.0,blue,texas,usa,2 days left,10,0.05593335099649681,High,Old,Dodge,Mid,0
@@ -1040,7 +1040,7 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 1085,33000,dodge,durango,2019,clean vehicle,10930.0,white,pennsylvania,usa,3 days left,7,3.0189369682554204,Low,Recent,Dodge,Mid,0
 1086,11000,dodge,caravan,2019,clean vehicle,73552.0,silver,texas,usa,2 days left,7,0.14955202371079357,Medium,Recent,Dodge,Mid,0
 1087,15800,dodge,caravan,2019,clean vehicle,37107.0,blue,pennsylvania,usa,2 days left,7,0.42578419747763285,Medium,Recent,Dodge,Mid,0
-1088,3600,dodge,door,2013,salvage insurance,124247.0,white,michigan,usa,2 days left,13,0.02897430944562488,High,Old,Dodge,Mid,0
+1088,3600,dodge,door,2013,salvage insurance,124247.0,white,michigan,usa,2 days left,13,0.02897430944562488,High,Old,Dodge,Mid,1
 1089,16300,dodge,caravan,2019,clean vehicle,36993.0,white,pennsylvania,usa,2 days left,7,0.44061199113369737,Medium,Recent,Dodge,Mid,0
 1090,2700,dodge,door,2015,clean vehicle,67133.0,white,texas,usa,2 days left,11,0.040218071320046477,Medium,Old,Dodge,Mid,0
 1091,12800,dodge,caravan,2019,clean vehicle,33580.0,no_color,pennsylvania,usa,2 days left,7,0.38116792233703584,Medium,Recent,Dodge,Mid,0
@@ -1069,7 +1069,7 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 1114,31500,dodge,durango,2018,clean vehicle,20907.0,white,illinois,usa,2 days left,8,1.506600344365793,Low,Old,Dodge,Mid,0
 1115,17400,dodge,durango,2017,clean vehicle,89795.0,red,illinois,usa,2 days left,9,0.1937725511158626,High,Old,Dodge,Mid,0
 1116,26000,dodge,durango,2017,clean vehicle,57158.0,white,illinois,usa,2 days left,9,0.45487149880158856,Medium,Old,Dodge,Mid,0
-1117,1700,dodge,door,2013,salvage insurance,126718.0,orange,texas,usa,2 days left,13,0.013415509907748641,High,Old,Dodge,Mid,0
+1117,1700,dodge,door,2013,salvage insurance,126718.0,orange,texas,usa,2 days left,13,0.013415509907748641,High,Old,Dodge,Mid,1
 1118,11000,dodge,door,2013,clean vehicle,83976.0,white,illinois,usa,2 days left,13,0.13098824678185694,High,Old,Dodge,Mid,0
 1119,21000,dodge,charger,2018,clean vehicle,12554.0,gray,texas,usa,10 days left,8,1.6726403823178018,Low,Old,Dodge,Mid,0
 1120,5500,dodge,door,2015,clean vehicle,60707.0,gray,texas,usa,10 days left,11,0.09059761481188641,Medium,Old,Dodge,Mid,0
@@ -1077,7 +1077,7 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 1122,15800,dodge,caravan,2019,clean vehicle,28038.0,silver,michigan,usa,21 hours left,7,0.5635008381183352,Low,Recent,Dodge,Mid,0
 1123,16900,dodge,journey,2019,clean vehicle,26643.0,red,michigan,usa,21 hours left,7,0.6342891457739078,Low,Recent,Dodge,Mid,0
 1124,25000,dodge,durango,2019,clean vehicle,36127.0,white,michigan,usa,21 hours left,7,0.6919840566873339,Medium,Recent,Dodge,Mid,0
-1125,18000,dodge,door,2019,salvage insurance,19983.0,black,massachusetts,usa,3 days left,7,0.900720576461169,Low,Recent,Dodge,Mid,0
+1125,18000,dodge,door,2019,salvage insurance,19983.0,black,massachusetts,usa,3 days left,7,0.900720576461169,Low,Recent,Dodge,Mid,1
 1126,15600,dodge,caravan,2019,clean vehicle,29926.0,black,michigan,usa,21 hours left,7,0.5212684198215658,Low,Recent,Dodge,Mid,0
 1127,23800,dodge,durango,2019,clean vehicle,36750.0,white,north carolina,usa,2 days left,7,0.6476014258115426,Medium,Recent,Dodge,Mid,0
 1128,16800,dodge,journey,2019,clean vehicle,27312.0,black,michigan,usa,21 hours left,7,0.6150917145681544,Low,Recent,Dodge,Mid,0
@@ -1188,7 +1188,7 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 1233,6500,ford,door,2015,clean vehicle,60015.0,black,pennsylvania,usa,21 hours left,11,0.10830445214609437,Medium,Old,Ford,Mid,0
 1234,1500,ford,door,2013,clean vehicle,126381.0,gray,pennsylvania,usa,21 hours left,13,0.011868778781788545,High,Old,Ford,Mid,0
 1235,2200,ford,door,2013,clean vehicle,128753.0,black,pennsylvania,usa,2 days left,13,0.017086847787253213,High,Old,Ford,Mid,0
-1236,4200,ford,door,2013,clean vehicle,0.0,no_color,pennsylvania,usa,2 days left,13,4200.0,,Old,Ford,Mid,0
+1236,4200,ford,door,2013,clean vehicle,0.0,no_color,pennsylvania,usa,2 days left,13,4200.0,Low,Old,Ford,Mid,0
 1237,8700,ford,van,2013,clean vehicle,64598.0,white,pennsylvania,usa,2 days left,13,0.13467700738401522,Medium,Old,Ford,Mid,0
 1238,3200,ford,door,2012,clean vehicle,111532.0,black,pennsylvania,usa,2 days left,14,0.0286910600450091,High,Old,Ford,Mid,0
 1239,9000,ford,door,2012,clean vehicle,149346.0,black,pennsylvania,usa,21 hours left,14,0.06026234206244518,High,Old,Ford,Mid,0
@@ -1347,18 +1347,18 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 1392,20000,ford,flex,2017,clean vehicle,45188.0,silver,california,usa,2 days left,9,0.44258558498749695,Medium,Old,Ford,Mid,0
 1393,7000,ford,door,2012,clean vehicle,149712.0,silver,texas,usa,4 days left,14,0.046756126722462314,High,Old,Ford,Mid,0
 1394,25100,ford,explorer,2017,clean vehicle,25030.0,gold,california,usa,2 days left,9,1.0027565818385202,Low,Old,Ford,Mid,0
-1395,2000,ford,door,2013,salvage insurance,105743.0,gray,oklahoma,usa,15 days left,13,0.018913602663035253,High,Old,Ford,Mid,0
+1395,2000,ford,door,2013,salvage insurance,105743.0,gray,oklahoma,usa,15 days left,13,0.018913602663035253,High,Old,Ford,Mid,1
 1396,18200,ford,fusion,2020,clean vehicle,9861.0,black,pennsylvania,usa,2 days left,6,1.8454674508213345,Low,Recent,Ford,Mid,0
 1397,14200,ford,fusion,2018,clean vehicle,1751.0,red,illinois,usa,2 days left,8,8.105022831050228,Low,Old,Ford,Mid,0
 1398,56500,ford,door,2017,clean vehicle,30629.0,red,california,usa,2 days left,9,1.8445968005223636,Medium,Old,Ford,Mid,0
-1399,2000,ford,door,2016,salvage insurance,52883.0,gray,oklahoma,usa,15 days left,10,0.03781862188941835,Medium,Old,Ford,Mid,0
+1399,2000,ford,door,2016,salvage insurance,52883.0,gray,oklahoma,usa,15 days left,10,0.03781862188941835,Medium,Old,Ford,Mid,1
 1400,26500,ford,van,2020,clean vehicle,122.0,white,pennsylvania,usa,2 days left,6,215.4471544715447,Low,Recent,Ford,Mid,0
 1401,34300,ford,srw,2019,clean vehicle,28534.0,white,florida,usa,2 hours left,7,1.2020325915542316,Low,Recent,Ford,Mid,0
 1402,43500,ford,f-150,2017,clean vehicle,80699.0,black,california,usa,21 hours left,9,0.5390334572490706,High,Old,Ford,Mid,0
-1403,3500,ford,door,2016,salvage insurance,72851.0,white,oklahoma,usa,15 days left,10,0.04804260692911656,Medium,Old,Ford,Mid,0
+1403,3500,ford,door,2016,salvage insurance,72851.0,white,oklahoma,usa,15 days left,10,0.04804260692911656,Medium,Old,Ford,Mid,1
 1404,37200,ford,srw,2019,clean vehicle,24078.0,white,florida,usa,2 hours left,7,1.5449146559242493,Low,Recent,Ford,Mid,0
 1405,12800,ford,door,2017,clean vehicle,38639.0,orange,california,usa,21 hours left,9,0.33126293995859213,Medium,Old,Ford,Mid,0
-1406,15000,ford,door,2013,salvage insurance,146807.0,silver,texas,usa,17 hours left,13,0.10217426843223802,High,Old,Ford,Mid,0
+1406,15000,ford,door,2013,salvage insurance,146807.0,silver,texas,usa,17 hours left,13,0.10217426843223802,High,Old,Ford,Mid,1
 1407,12500,ford,door,2017,clean vehicle,31871.0,silver,california,usa,21 hours left,9,0.3921937751004016,Medium,Old,Ford,Mid,0
 1408,21500,ford,f-150,2017,clean vehicle,76876.0,gray,california,usa,2 days left,9,0.27966752084498614,Medium,Old,Ford,Mid,0
 1409,17300,ford,fusion,2019,clean vehicle,28070.0,white,north carolina,usa,listing expired,7,0.6162943963521071,Low,Recent,Ford,Mid,0
@@ -1374,7 +1374,7 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 1419,3000,ford,van,2012,clean vehicle,137171.0,white,missouri,usa,7 days left,14,0.021870352550083107,High,Old,Ford,Mid,0
 1420,20000,ford,door,2015,clean vehicle,63445.0,gray,california,usa,21 hours left,11,0.3152286984207042,Medium,Old,Ford,Mid,0
 1421,25300,ford,edge,2019,clean vehicle,26422.0,black,pennsylvania,usa,2 days left,7,0.9574991484691368,Low,Recent,Ford,Mid,0
-1422,4000,ford,door,2015,salvage insurance,149319.0,white,south carolina,usa,2 days left,11,0.02678810608090008,High,Old,Ford,Mid,0
+1422,4000,ford,door,2015,salvage insurance,149319.0,white,south carolina,usa,2 days left,11,0.02678810608090008,High,Old,Ford,Mid,1
 1423,45500,ford,expedition,2019,clean vehicle,18767.0,gray,pennsylvania,usa,3 days left,7,2.4243393009377665,Low,Recent,Ford,Mid,0
 1424,9100,ford,fiesta,2018,clean vehicle,38289.0,silver,minnesota,usa,14 hours left,8,0.2376599634369287,Medium,Old,Ford,Mid,0
 1425,48000,ford,expedition,2019,clean vehicle,22960.0,black,pennsylvania,usa,3 days left,7,2.0905012847872477,Low,Recent,Ford,Mid,0
@@ -1393,15 +1393,15 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 1438,23900,ford,edge,2019,clean vehicle,28733.0,black,pennsylvania,usa,2 days left,7,0.8317672443794808,Low,Recent,Ford,Mid,0
 1439,31500,ford,wagon,2019,clean vehicle,16019.0,black,pennsylvania,usa,1 days left,7,1.9662921348314606,Low,Recent,Ford,Mid,0
 1440,18500,ford,taurus,2016,clean vehicle,75580.0,black,ohio,usa,2 days left,10,0.24477051110728887,Medium,Old,Ford,Mid,0
-1441,1500,ford,door,2013,salvage insurance,113444.0,white,georgia,usa,2 days left,13,0.01322226629644321,High,Old,Ford,Mid,0
+1441,1500,ford,door,2013,salvage insurance,113444.0,white,georgia,usa,2 days left,13,0.01322226629644321,High,Old,Ford,Mid,1
 1442,46000,ford,max,2019,clean vehicle,19227.0,white,pennsylvania,usa,3 days left,7,2.3923444976076556,Low,Recent,Ford,Mid,0
 1443,31500,ford,wagon,2019,clean vehicle,13633.0,black,pennsylvania,usa,1 days left,7,2.3104004694146987,Low,Recent,Ford,Mid,0
 1444,14700,ford,van,2015,clean vehicle,37739.0,white,new jersey,usa,2 days left,11,0.38950715421303655,Medium,Old,Ford,Mid,0
-1445,2700,ford,door,2013,salvage insurance,103541.0,green,michigan,usa,2 days left,13,0.026076374804427187,High,Old,Ford,Mid,0
+1445,2700,ford,door,2013,salvage insurance,103541.0,green,michigan,usa,2 days left,13,0.026076374804427187,High,Old,Ford,Mid,1
 1446,47500,ford,expedition,2019,clean vehicle,24072.0,blue,pennsylvania,usa,3 days left,7,1.973164956590371,Low,Recent,Ford,Mid,0
 1447,31500,ford,wagon,2019,clean vehicle,17657.0,black,pennsylvania,usa,1 days left,7,1.783893985728848,Low,Recent,Ford,Mid,0
 1448,8900,ford,door,2014,clean vehicle,77392.0,red,new jersey,usa,2 days left,12,0.11499748039228354,Medium,Old,Ford,Mid,0
-1449,7000,ford,door,2019,salvage insurance,11930.0,white,michigan,usa,2 days left,7,0.586706897996815,Low,Recent,Ford,Mid,0
+1449,7000,ford,door,2019,salvage insurance,11930.0,white,michigan,usa,2 days left,7,0.586706897996815,Low,Recent,Ford,Mid,1
 1450,49000,ford,expedition,2019,clean vehicle,19731.0,red,pennsylvania,usa,3 days left,7,2.483275897020069,Low,Recent,Ford,Mid,0
 1451,31500,ford,wagon,2019,clean vehicle,15581.0,black,pennsylvania,usa,1 days left,7,2.0215633423180592,Low,Recent,Ford,Mid,0
 1452,8900,ford,door,2014,clean vehicle,70181.0,black,new jersey,usa,2 days left,12,0.1268131429711322,Medium,Old,Ford,Mid,0
@@ -1453,10 +1453,10 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 1498,23200,ford,f-150,2019,clean vehicle,9516.0,white,oklahoma,usa,21 hours left,7,2.437742986235158,Low,Recent,Ford,Mid,0
 1499,29000,ford,f-150,2019,clean vehicle,9718.0,silver,pennsylvania,usa,3 days left,7,2.983846074699043,Low,Recent,Ford,Mid,0
 1500,22800,ford,f-150,2019,clean vehicle,16506.0,white,oklahoma,usa,21 hours left,7,1.3812322045192948,Low,Recent,Ford,Mid,0
-1501,3450,ford,door,2015,salvage insurance,192108.0,white,oregon,usa,2 days left,11,0.017958554778797455,Very High,Old,Ford,Mid,0
+1501,3450,ford,door,2015,salvage insurance,192108.0,white,oregon,usa,2 days left,11,0.017958554778797455,Very High,Old,Ford,Mid,1
 1502,31000,ford,f-150,2019,clean vehicle,11028.0,white,pennsylvania,usa,3 days left,7,2.810771602139813,Low,Recent,Ford,Mid,0
 1503,22900,ford,f-150,2019,clean vehicle,11313.0,white,oklahoma,usa,21 hours left,7,2.024041011136645,Low,Recent,Ford,Mid,0
-1504,3000,ford,door,2014,salvage insurance,141595.0,red,oregon,usa,2 days left,12,0.021187039181897793,High,Old,Ford,Mid,0
+1504,3000,ford,door,2014,salvage insurance,141595.0,red,oregon,usa,2 days left,12,0.021187039181897793,High,Old,Ford,Mid,1
 1505,28000,ford,f-150,2019,clean vehicle,12886.0,silver,pennsylvania,usa,3 days left,7,2.1727322107550244,Low,Recent,Ford,Mid,0
 1506,23200,ford,f-150,2019,clean vehicle,9556.0,white,oklahoma,usa,21 hours left,7,2.427540023019776,Low,Recent,Ford,Mid,0
 1507,27000,ford,f-150,2019,clean vehicle,13269.0,blue,pennsylvania,usa,3 days left,7,2.0346646571213265,Low,Recent,Ford,Mid,0
@@ -1567,28 +1567,28 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 1612,10000,ford,escape,2017,clean vehicle,35021.0,silver,colorado,usa,8 days left,9,0.28553480669293585,Medium,Old,Ford,Mid,0
 1613,4100,ford,door,2012,clean vehicle,100264.0,silver,pennsylvania,usa,21 hours left,14,0.040891637161521964,High,Old,Ford,Mid,0
 1614,30995,ford,door,2015,clean vehicle,157057.0,off-white,texas,usa,2 days left,11,0.1973474767283424,Very High,Old,Ford,Mid,0
-1615,1750,ford,door,2012,salvage insurance,181316.0,black,minnesota,usa,8 days left,14,0.009651604648212799,Very High,Old,Ford,Mid,0
+1615,1750,ford,door,2012,salvage insurance,181316.0,black,minnesota,usa,8 days left,14,0.009651604648212799,Very High,Old,Ford,Mid,1
 1616,31500,ford,wagon,2019,clean vehicle,23222.0,black,pennsylvania,usa,2 days left,7,1.3564139000129183,Low,Recent,Ford,Mid,0
 1617,13500,ford,door,2016,clean vehicle,87686.0,white,colorado,usa,8 days left,10,0.15395668685209896,High,Old,Ford,Mid,0
 1618,7500,ford,door,2014,clean vehicle,162918.0,blue,texas,usa,6 hours left,12,0.04603514629969494,Very High,Old,Ford,Mid,0
-1619,650,ford,door,2017,salvage insurance,0.0,black,california,usa,2 days left,9,650.0,,Old,Ford,Mid,0
+1619,650,ford,door,2017,salvage insurance,0.0,black,california,usa,2 days left,9,650.0,Low,Old,Ford,Mid,1
 1620,22800,ford,wagon,2019,clean vehicle,32526.0,white,pennsylvania,usa,2 days left,7,0.7009561287545731,Medium,Recent,Ford,Mid,0
 1621,11300,ford,door,2016,clean vehicle,69402.0,white,colorado,usa,8 days left,10,0.16281716928663026,Medium,Old,Ford,Mid,0
 1622,32700,ford,door,2014,clean vehicle,76336.0,white,texas,usa,7 hours left,12,0.42836370305356514,Medium,Old,Ford,Mid,0
-1623,1350,ford,door,2012,salvage insurance,163334.0,white,virginia,usa,3 days left,14,0.008265221783451189,Very High,Old,Ford,Mid,0
+1623,1350,ford,door,2012,salvage insurance,163334.0,white,virginia,usa,3 days left,14,0.008265221783451189,Very High,Old,Ford,Mid,1
 1624,21900,ford,wagon,2019,clean vehicle,47628.0,white,pennsylvania,usa,2 days left,7,0.4598039009846942,Medium,Recent,Ford,Mid,0
 1625,11700,ford,door,2014,clean vehicle,135283.0,orange,texas,usa,6 hours left,12,0.08648472842316904,High,Old,Ford,Mid,0
-1626,6500,ford,door,2014,salvage insurance,147903.0,white,georgia,usa,3 days left,12,0.04394742535698832,High,Old,Ford,Mid,0
+1626,6500,ford,door,2014,salvage insurance,147903.0,white,georgia,usa,3 days left,12,0.04394742535698832,High,Old,Ford,Mid,1
 1627,9800,ford,door,2014,clean vehicle,74181.0,black,colorado,usa,8 days left,12,0.13210751934431533,Medium,Old,Ford,Mid,0
 1628,11000,ford,door,2014,clean vehicle,77386.0,white,texas,usa,6 hours left,12,0.14214273715223488,Medium,Old,Ford,Mid,0
-1629,1150,ford,door,2014,salvage insurance,123349.0,red,georgia,usa,3 days left,12,0.009323064450749898,High,Old,Ford,Mid,0
+1629,1150,ford,door,2014,salvage insurance,123349.0,red,georgia,usa,3 days left,12,0.009323064450749898,High,Old,Ford,Mid,1
 1630,13000,ford,cutaway,2013,clean vehicle,136661.0,white,colorado,usa,8 days left,13,0.09512519939705258,High,Old,Ford,Mid,0
 1631,5500,ford,door,2013,clean vehicle,109600.0,silver,texas,usa,2 days left,13,0.05018202388664337,High,Old,Ford,Mid,0
-1632,6000,ford,door,2014,salvage insurance,125369.0,black,massachusetts,usa,3 days left,12,0.04785833931562575,High,Old,Ford,Mid,0
+1632,6000,ford,door,2014,salvage insurance,125369.0,black,massachusetts,usa,3 days left,12,0.04785833931562575,High,Old,Ford,Mid,1
 1633,11200,ford,door,2013,clean vehicle,122861.0,blue,texas,usa,6 hours left,13,0.09115918672982697,High,Old,Ford,Mid,0
-1634,5000,ford,door,2016,salvage insurance,110826.0,gray,massachusetts,usa,3 days left,10,0.04511535997545724,High,Old,Ford,Mid,0
+1634,5000,ford,door,2016,salvage insurance,110826.0,gray,massachusetts,usa,3 days left,10,0.04511535997545724,High,Old,Ford,Mid,1
 1635,23400,ford,f-150,2019,clean vehicle,12198.0,white,missouri,usa,21 hours left,7,1.918190015575047,Low,Recent,Ford,Mid,0
-1636,13500,ford,door,2019,salvage insurance,45512.0,red,massachusetts,usa,3 days left,7,0.2966185485465691,Medium,Recent,Ford,Mid,0
+1636,13500,ford,door,2019,salvage insurance,45512.0,red,massachusetts,usa,3 days left,7,0.2966185485465691,Medium,Recent,Ford,Mid,1
 1637,22900,ford,f-150,2019,clean vehicle,15656.0,white,missouri,usa,21 hours left,7,1.4626045858082646,Low,Recent,Ford,Mid,0
 1638,20000,ford,fusion,2020,clean vehicle,23984.0,silver,virginia,usa,2 days left,6,0.8338544923910778,Low,Recent,Ford,Mid,0
 1639,22900,ford,f-150,2019,clean vehicle,15821.0,white,missouri,usa,21 hours left,7,1.447351788648717,Low,Recent,Ford,Mid,0
@@ -1799,39 +1799,39 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 1845,21700,ford,door,2012,clean vehicle,114500.0,green,texas,usa,2 days left,14,0.18951799547602205,High,Old,Ford,Mid,0
 1846,11200,ford,door,2012,clean vehicle,67140.0,blue,texas,usa,2 days left,14,0.1668131246183405,Medium,Old,Ford,Mid,0
 1847,11300,ford,escape,2018,clean vehicle,42168.0,gray,north carolina,usa,2 days left,8,0.26796936137921223,Medium,Old,Ford,Mid,0
-1848,4200,ford,cutaway,2015,salvage insurance,80032.0,color:,illinois,usa,16 hours left,11,0.052478352679519696,High,Old,Ford,Mid,0
+1848,4200,ford,cutaway,2015,salvage insurance,80032.0,color:,illinois,usa,16 hours left,11,0.052478352679519696,High,Old,Ford,Mid,1
 1849,10900,ford,focus,2018,clean vehicle,52240.0,green,north carolina,usa,2 days left,8,0.2086483796251986,Medium,Old,Ford,Mid,0
 1850,42300,ford,max,2019,clean vehicle,34874.0,gray,florida,usa,2 days left,7,1.2129032258064516,Medium,Recent,Ford,Mid,0
-1851,10500,ford,door,2014,salvage insurance,119689.0,white,idaho,usa,16 hours left,12,0.08772662712006016,High,Old,Ford,Mid,0
+1851,10500,ford,door,2014,salvage insurance,119689.0,white,idaho,usa,16 hours left,12,0.08772662712006016,High,Old,Ford,Mid,1
 1852,43400,ford,max,2019,clean vehicle,37355.0,gray,florida,usa,2 days left,7,1.1617946246921511,Medium,Recent,Ford,Mid,0
-1853,12500,ford,door,2016,salvage insurance,100947.0,white,idaho,usa,16 hours left,10,0.1238261283036811,High,Old,Ford,Mid,0
+1853,12500,ford,door,2016,salvage insurance,100947.0,white,idaho,usa,16 hours left,10,0.1238261283036811,High,Old,Ford,Mid,1
 1854,15900,ford,escape,2019,clean vehicle,26040.0,white,minnesota,usa,14 hours left,7,0.6105756307361468,Low,Recent,Ford,Mid,0
 1855,42500,ford,max,2019,clean vehicle,36638.0,white,florida,usa,2 days left,7,1.159966156281558,Medium,Recent,Ford,Mid,0
-1856,15000,ford,door,2015,salvage insurance,137004.0,white,texas,usa,16 hours left,11,0.10948505528995292,High,Old,Ford,Mid,0
+1856,15000,ford,door,2015,salvage insurance,137004.0,white,texas,usa,16 hours left,11,0.10948505528995292,High,Old,Ford,Mid,1
 1857,24700,ford,edge,2019,clean vehicle,31794.0,blue,florida,usa,1 days left,7,0.7768517062431199,Medium,Recent,Ford,Mid,0
-1858,15500,ford,door,2015,salvage insurance,131106.0,white,texas,usa,16 hours left,11,0.1182240460082223,High,Old,Ford,Mid,0
+1858,15500,ford,door,2015,salvage insurance,131106.0,white,texas,usa,16 hours left,11,0.1182240460082223,High,Old,Ford,Mid,1
 1859,49000,ford,expedition,2019,clean vehicle,22013.0,white,minnesota,usa,14 hours left,7,2.2258562732806397,Low,Recent,Ford,Mid,0
 1860,29000,ford,door,2017,clean vehicle,42291.0,black,tennessee,usa,21 hours left,9,0.6857088811122671,Medium,Old,Ford,Mid,0
 1861,16800,ford,escape,2019,clean vehicle,13155.0,white,florida,usa,2 days left,7,1.276983885679538,Low,Recent,Ford,Mid,0
 1862,51000,ford,max,2019,clean vehicle,24869.0,red,minnesota,usa,14 hours left,7,2.0506634499396865,Low,Recent,Ford,Mid,0
 1863,16500,ford,escape,2019,clean vehicle,18454.0,white,florida,usa,2 days left,7,0.8940666486047142,Low,Recent,Ford,Mid,0
-1864,10000,ford,d,2016,salvage insurance,16694.0,white,texas,usa,16 hours left,10,0.5989817310572028,Low,Old,Ford,Mid,0
+1864,10000,ford,d,2016,salvage insurance,16694.0,white,texas,usa,16 hours left,10,0.5989817310572028,Low,Old,Ford,Mid,1
 1865,27900,ford,explorer,2019,clean vehicle,28922.0,gray,florida,usa,2 days left,7,0.9646302250803859,Low,Recent,Ford,Mid,0
 1866,23700,ford,edge,2019,clean vehicle,23534.0,gray,florida,usa,1 days left,7,1.0070108349267048,Low,Recent,Ford,Mid,0
-1867,20000,ford,dr,2012,salvage insurance,24581.0,color:,california,usa,16 hours left,14,0.8136034496786266,Low,Old,Ford,Mid,0
+1867,20000,ford,dr,2012,salvage insurance,24581.0,color:,california,usa,16 hours left,14,0.8136034496786266,Low,Old,Ford,Mid,1
 1868,45600,ford,max,2019,clean vehicle,35646.0,gray,florida,usa,2 days left,7,1.2792100316997224,Medium,Recent,Ford,Mid,0
-1869,6000,ford,cab,2012,salvage insurance,129873.0,white,virginia,usa,16 hours left,14,0.046198623281026224,High,Old,Ford,Mid,0
+1869,6000,ford,cab,2012,salvage insurance,129873.0,white,virginia,usa,16 hours left,14,0.046198623281026224,High,Old,Ford,Mid,1
 1870,15600,ford,escape,2019,clean vehicle,28669.0,black,florida,usa,2 days left,7,0.5441227764213463,Low,Recent,Ford,Mid,0
 1871,25000,ford,explorer,2017,clean vehicle,32454.0,red,michigan,usa,21 hours left,9,0.7702973347712216,Medium,Old,Ford,Mid,0
 1872,28500,ford,explorer,2019,clean vehicle,21800.0,black,florida,usa,2 days left,7,1.3072794825925416,Low,Recent,Ford,Mid,0
-1873,8000,ford,cutaway,2014,salvage insurance,231769.0,yellow,florida,usa,16 hours left,12,0.034516978038572725,Very High,Old,Ford,Mid,0
+1873,8000,ford,cutaway,2014,salvage insurance,231769.0,yellow,florida,usa,16 hours left,12,0.034516978038572725,Very High,Old,Ford,Mid,1
 1874,19990,ford,doors,2016,clean vehicle,23796.0,black,connecticut,usa,11 days left,10,0.8400218514938858,Low,Old,Ford,Mid,0
 1875,34400,ford,max,2019,clean vehicle,42506.0,gray,florida,usa,2 days left,7,0.8092784717811184,Medium,Recent,Ford,Mid,0
 1876,30999,ford,doors,2016,clean vehicle,6249.0,shadow black,connecticut,usa,11 days left,10,4.95984,Low,Old,Ford,Mid,0
 1877,41000,ford,expedition,2019,clean vehicle,47496.0,black,florida,usa,2 days left,7,0.8632124134155842,Medium,Recent,Ford,Mid,0
 1878,27999,ford,doors,2016,clean vehicle,10700.0,gray,massachusetts,usa,11 days left,10,2.616484440706476,Low,Old,Ford,Mid,0
 1879,42000,ford,expedition,2019,clean vehicle,39604.0,black,florida,usa,2 days left,7,1.0604721626057316,Medium,Recent,Ford,Mid,0
-1880,8000,ford,cutaway,2013,salvage insurance,250831.0,color:,new jersey,usa,16 hours left,13,0.03189385724309498,Very High,Old,Ford,Mid,0
+1880,8000,ford,cutaway,2013,salvage insurance,250831.0,color:,new jersey,usa,16 hours left,13,0.03189385724309498,Very High,Old,Ford,Mid,1
 1881,29795,ford,doors,2016,clean vehicle,7275.0,triple yellow tri-coat,connecticut,usa,11 days left,10,4.094969763606377,Low,Old,Ford,Mid,0
 1882,24700,ford,edge,2019,clean vehicle,8806.0,black,florida,usa,4 hours left,7,2.8045872601339843,Low,Recent,Ford,Mid,0
 1883,13995,ford,doors,2016,clean vehicle,105115.0,gray,new jersey,usa,11 days left,10,0.13313862780166674,High,Old,Ford,Mid,0
@@ -1843,17 +1843,17 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 1889,18500,ford,doors,2016,clean vehicle,45814.0,black,new york,usa,11 days left,10,0.4037978827894794,Medium,Old,Ford,Mid,0
 1890,32000,ford,f-150,2019,clean vehicle,17310.0,red,minnesota,usa,14 hours left,7,1.848535613193923,Low,Recent,Ford,Mid,0
 1891,28300,ford,explorer,2019,clean vehicle,24116.0,gray,florida,usa,2 days left,7,1.1734461168470374,Low,Recent,Ford,Mid,0
-1892,10500,ford,d,2019,salvage insurance,14128.0,blue,florida,usa,15 hours left,7,0.743152381626442,Low,Recent,Ford,Mid,0
+1892,10500,ford,d,2019,salvage insurance,14128.0,blue,florida,usa,15 hours left,7,0.743152381626442,Low,Recent,Ford,Mid,1
 1893,24970,ford,doors,2016,clean vehicle,49882.0,green,new york,usa,11 days left,10,0.5005713369284125,Medium,Old,Ford,Mid,0
 1894,13800,ford,fusion,2019,clean vehicle,38964.0,blue,minnesota,usa,14 hours left,7,0.35416399332734505,Medium,Recent,Ford,Mid,0
 1895,2580,ford,door,2012,clean vehicle,102705.0,white,florida,usa,24 hours left,14,0.02512024613946605,High,Old,Ford,Mid,0
 1896,59975,ford,f-150,2019,clean vehicle,71.0,white,florida,usa,listing expired,7,832.9861111111111,Low,Recent,Ford,Mid,0
-1897,2500,ford,door,2012,salvage insurance,98620.0,white,indiana,usa,15 hours left,14,0.025349570578274402,High,Old,Ford,Mid,0
+1897,2500,ford,door,2012,salvage insurance,98620.0,white,indiana,usa,15 hours left,14,0.025349570578274402,High,Old,Ford,Mid,1
 1898,28990,ford,doors,2016,clean vehicle,15825.0,triple yellow tri-coat,massachusetts,usa,11 days left,10,1.8317957790976873,Low,Old,Ford,Mid,0
 1899,50000,ford,max,2019,clean vehicle,29499.0,blue,minnesota,usa,14 hours left,7,1.694915254237288,Low,Recent,Ford,Mid,0
 1900,33800,ford,door,2014,clean vehicle,100255.0,white,kentucky,usa,21 hours left,12,0.33713692946058094,High,Old,Ford,Mid,0
 1901,59975,ford,f-150,2019,clean vehicle,174.0,black,florida,usa,listing expired,7,342.7142857142857,Low,Recent,Ford,Mid,0
-1902,2500,ford,door,2013,salvage insurance,167552.0,gray,minnesota,usa,16 hours left,13,0.014920651972808605,Very High,Old,Ford,Mid,0
+1902,2500,ford,door,2013,salvage insurance,167552.0,gray,minnesota,usa,16 hours left,13,0.014920651972808605,Very High,Old,Ford,Mid,1
 1903,46999,ford,doors,2016,clean vehicle,16956.0,magnetic metallic,new jersey,usa,11 days left,10,2.7716577224744943,Low,Old,Ford,Mid,0
 1904,16700,ford,fusion,2019,clean vehicle,36896.0,black,minnesota,usa,14 hours left,7,0.4526113234138277,Medium,Recent,Ford,Mid,0
 1905,34700,ford,door,2013,clean vehicle,77281.0,white,kentucky,usa,21 hours left,13,0.4490049429362594,Medium,Old,Ford,Mid,0
@@ -1866,15 +1866,15 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 1912,23400,ford,flex,2019,clean vehicle,24987.0,black,minnesota,usa,14 hours left,7,0.9364494957579638,Low,Recent,Ford,Mid,0
 1913,29800,ford,mustang,2016,clean vehicle,18367.0,blue,illinois,usa,21 hours left,10,1.6223867595818815,Low,Old,Ford,Mid,0
 1914,23700,ford,flex,2019,clean vehicle,14109.0,gray,florida,usa,1 days left,7,1.6796598157335223,Low,Recent,Ford,Mid,0
-1915,1725,ford,door,2012,salvage insurance,158781.0,black,illinois,usa,16 hours left,14,0.010863951833331234,Very High,Old,Ford,Mid,0
+1915,1725,ford,door,2012,salvage insurance,158781.0,black,illinois,usa,16 hours left,14,0.010863951833331234,Very High,Old,Ford,Mid,1
 1916,33995,ford,doors,2016,clean vehicle,27369.0,black,new jersey,usa,11 days left,10,1.242053343076361,Low,Old,Ford,Mid,0
 1917,23500,ford,flex,2019,clean vehicle,30208.0,white,minnesota,usa,14 hours left,7,0.7779138667284584,Medium,Recent,Ford,Mid,0
 1918,32500,ford,explorer,2019,clean vehicle,24024.0,black,florida,usa,2 days left,7,1.352757544224766,Low,Recent,Ford,Mid,0
-1919,2500,ford,door,2016,salvage insurance,64999.0,blue,mississippi,usa,16 hours left,10,0.038461538461538464,Medium,Old,Ford,Mid,0
+1919,2500,ford,door,2016,salvage insurance,64999.0,blue,mississippi,usa,16 hours left,10,0.038461538461538464,Medium,Old,Ford,Mid,1
 1920,39000,ford,f-150,2019,clean vehicle,8404.0,black,minnesota,usa,14 hours left,7,4.640095181439619,Low,Recent,Ford,Mid,0
 1921,11000,ford,focus,2018,clean vehicle,8884.0,gray,massachusetts,usa,6 days left,8,1.2380416432189083,Low,Old,Ford,Mid,0
 1922,32500,ford,explorer,2019,clean vehicle,24126.0,black,florida,usa,2 days left,7,1.3470385874746136,Low,Recent,Ford,Mid,0
-1923,800,ford,door,2012,salvage insurance,129659.0,black,mississippi,usa,16 hours left,14,0.00616998303254666,High,Old,Ford,Mid,0
+1923,800,ford,door,2012,salvage insurance,129659.0,black,mississippi,usa,16 hours left,14,0.00616998303254666,High,Old,Ford,Mid,1
 1924,26900,ford,f-150,2019,clean vehicle,31713.0,black,minnesota,usa,14 hours left,7,0.8482058396922495,Medium,Recent,Ford,Mid,0
 1925,11200,ford,edge,2016,clean vehicle,109996.0,gray,new york,usa,18 hours left,10,0.10182095875342055,High,Old,Ford,Mid,0
 1926,21000,ford,doors,2018,clean vehicle,6821.0,red,new york,usa,11 days left,8,3.0782761653474053,Low,Old,Ford,Mid,0
@@ -1901,7 +1901,7 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 1947,14900,ford,fusion,2019,clean vehicle,40505.0,gray,minnesota,usa,14 hours left,7,0.3678467387547524,Medium,Recent,Ford,Mid,0
 1948,8700,ford,door,2016,clean vehicle,30735.0,black,massachusetts,usa,6 days left,10,0.28305570015616865,Medium,Old,Ford,Mid,0
 1949,20600,ford,mustang,2019,clean vehicle,33965.0,gray,florida,usa,2 days left,7,0.6064888417829595,Medium,Recent,Ford,Mid,0
-1950,5000,ford,door,2018,salvage insurance,7339.0,white,oklahoma,usa,12 days left,8,0.6811989100817438,Low,Old,Ford,Mid,0
+1950,5000,ford,door,2018,salvage insurance,7339.0,white,oklahoma,usa,12 days left,8,0.6811989100817438,Low,Old,Ford,Mid,1
 1951,19995,ford,doors,2018,clean vehicle,42470.0,white,new york,usa,11 days left,8,0.47079183442819805,Medium,Old,Ford,Mid,0
 1952,14900,ford,fusion,2019,clean vehicle,40670.0,silver,minnesota,usa,14 hours left,7,0.3663544048584987,Medium,Recent,Ford,Mid,0
 1953,19500,ford,door,2016,clean vehicle,41233.0,black,massachusetts,usa,6 days left,10,0.47291070475820923,Medium,Old,Ford,Mid,0
@@ -1925,17 +1925,17 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 1971,20950,ford,doors,2018,clean vehicle,40793.0,black,new hampshire,usa,11 days left,8,0.5135559150855518,Medium,Old,Ford,Mid,0
 1972,46200,ford,door,2017,clean vehicle,94741.0,no_color,alabama,usa,21 hours left,9,0.48764011737138757,High,Old,Ford,Mid,0
 1973,29400,ford,mustang,2019,clean vehicle,25011.0,white,florida,usa,2 days left,7,1.1754357908204063,Low,Recent,Ford,Mid,0
-1974,2825,ford,door,2014,salvage insurance,363810.0,white,montana,usa,17 hours left,12,0.007765020848737394,Very High,Old,Ford,Mid,0
+1974,2825,ford,door,2014,salvage insurance,363810.0,white,montana,usa,17 hours left,12,0.007765020848737394,Very High,Old,Ford,Mid,1
 1975,32999,ford,doors,2018,clean vehicle,6881.0,shadow black,new jersey,usa,11 days left,8,4.794972391746585,Low,Old,Ford,Mid,0
 1976,6600,ford,door,2014,clean vehicle,80423.0,orange,new jersey,usa,2 hours left,12,0.08206505520740077,High,Old,Ford,Mid,0
 1977,50200,ford,door,2017,clean vehicle,92405.0,white,alabama,usa,21 hours left,9,0.5432547670064715,High,Old,Ford,Mid,0
 1978,28300,ford,ranger,2019,clean vehicle,15436.0,white,florida,usa,2 days left,7,1.83325775733627,Low,Recent,Ford,Mid,0
-1979,12000,ford,door,2017,salvage insurance,104665.0,white,california,usa,18 hours left,9,0.11465041178606233,High,Old,Ford,Mid,0
+1979,12000,ford,door,2017,salvage insurance,104665.0,white,california,usa,18 hours left,9,0.11465041178606233,High,Old,Ford,Mid,1
 1980,32999,ford,doors,2018,clean vehicle,16194.0,royal crimson metallic tinted clearcoat,new jersey,usa,11 days left,8,2.0376041988267986,Low,Old,Ford,Mid,0
 1981,12600,ford,door,2014,clean vehicle,48188.0,black,new jersey,usa,2 hours left,12,0.26147046006349994,Medium,Old,Ford,Mid,0
 1982,5200,ford,focus,2017,clean vehicle,65164.0,red,alabama,usa,21 hours left,9,0.0797974372746106,Medium,Old,Ford,Mid,0
 1983,20500,ford,mustang,2019,clean vehicle,35930.0,black,florida,usa,2 days left,7,0.570537975564276,Medium,Recent,Ford,Mid,0
-1984,1200,ford,door,2012,salvage insurance,167376.0,red,virginia,usa,3 days left,14,0.007169443830394857,Very High,Old,Ford,Mid,0
+1984,1200,ford,door,2012,salvage insurance,167376.0,red,virginia,usa,3 days left,14,0.007169443830394857,Very High,Old,Ford,Mid,1
 1985,35999,ford,doors,2018,clean vehicle,13674.0,kona blue metallic,new jersey,usa,11 days left,8,2.6324680073126143,Low,Old,Ford,Mid,0
 1986,41000,ford,srw,2019,clean vehicle,9235.0,silver,minnesota,usa,14 hours left,7,4.4391511476829795,Low,Recent,Ford,Mid,0
 1987,33100,ford,door,2017,clean vehicle,103002.0,red,mississippi,usa,21 hours left,9,0.32134986359620593,High,Old,Ford,Mid,0
@@ -1966,7 +1966,7 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 2012,35400,ford,ranger,2020,clean vehicle,671.0,blue,ohio,usa,21 hours left,6,52.67857142857143,Low,Recent,Ford,Mid,0
 2013,32700,ford,door,2016,clean vehicle,61477.0,silver,alabama,usa,21 hours left,10,0.5318975893815674,Medium,Old,Ford,Mid,0
 2014,13995,ford,doors,2015,clean vehicle,73891.0,silver,new york,usa,9 days left,11,0.18939804038326205,Medium,Old,Ford,Mid,0
-2015,1850,ford,door,2014,salvage insurance,168805.0,black,michigan,usa,2 days left,12,0.010959326090304847,Very High,Old,Ford,Mid,0
+2015,1850,ford,door,2014,salvage insurance,168805.0,black,michigan,usa,2 days left,12,0.010959326090304847,Very High,Old,Ford,Mid,1
 2016,15800,ford,door,2012,clean vehicle,82564.0,gold,florida,usa,2 days left,14,0.19136437957972507,High,Old,Ford,Mid,0
 2017,36000,ford,door,2016,clean vehicle,85649.0,black,mississippi,usa,21 hours left,10,0.4203152364273205,High,Old,Ford,Mid,0
 2018,15495,ford,doors,2015,clean vehicle,48374.0,white,new york,usa,9 days left,11,0.32031007751937984,Medium,Old,Ford,Mid,0
@@ -2059,7 +2059,7 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 2105,25900,ford,explorer,2019,clean vehicle,32796.0,white,north carolina,usa,2 days left,7,0.7897063755831326,Medium,Recent,Ford,Mid,0
 2106,22500,ford,door,2016,clean vehicle,67979.0,black,illinois,usa,2 days left,10,0.33097969991173876,Medium,Old,Ford,Mid,0
 2107,29000,ford,f-150,2018,clean vehicle,18690.0,white,pennsylvania,usa,3 days left,8,1.5515488737895244,Low,Old,Ford,Mid,0
-2108,825,ford,door,2012,salvage insurance,78072.0,white,pennsylvania,usa,7 days left,14,0.01056703341744265,Medium,Old,Ford,Mid,0
+2108,825,ford,door,2012,salvage insurance,78072.0,white,pennsylvania,usa,7 days left,14,0.01056703341744265,Medium,Old,Ford,Mid,1
 2109,10500,ford,door,2016,clean vehicle,54251.0,red,illinois,usa,2 days left,10,0.19354125193541252,Medium,Old,Ford,Mid,0
 2110,32000,ford,f-150,2018,clean vehicle,32262.0,white,pennsylvania,usa,3 days left,8,0.9918482472181757,Medium,Old,Ford,Mid,0
 2111,27700,ford,f-650,2015,clean vehicle,92358.0,white,texas,usa,2 days left,11,0.29991662967333993,High,Old,Ford,Mid,0
@@ -2218,13 +2218,13 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 2264,7500,nissan,door,2017,clean vehicle,74859.0,gray,connecticut,usa,3 days left,9,0.10018701576275715,Medium,Old,Nissan,Mid,0
 2265,10500,nissan,door,2017,clean vehicle,59508.0,black,connecticut,usa,3 days left,9,0.17644389924213144,Medium,Old,Nissan,Mid,0
 2266,8400,nissan,juke,2017,clean vehicle,58529.0,white,connecticut,usa,3 days left,9,0.1435161455663762,Medium,Old,Nissan,Mid,0
-2267,7000,nissan,door,2015,salvage insurance,24396.0,black,florida,usa,15 hours left,11,0.28692052301512483,Low,Old,Nissan,Mid,0
+2267,7000,nissan,door,2015,salvage insurance,24396.0,black,florida,usa,15 hours left,11,0.28692052301512483,Low,Old,Nissan,Mid,1
 2268,25500,nissan,armada,2020,clean vehicle,10317.0,black,california,usa,1 days left,6,2.4714091878270983,Low,Recent,Nissan,Mid,0
-2269,4100,nissan,door,2017,salvage insurance,37619.0,black,florida,usa,15 hours left,9,0.1089845826687932,Medium,Old,Nissan,Mid,0
+2269,4100,nissan,door,2017,salvage insurance,37619.0,black,florida,usa,15 hours left,9,0.1089845826687932,Medium,Old,Nissan,Mid,1
 2270,13900,nissan,altima,2020,clean vehicle,15160.0,black,california,usa,1 days left,6,0.9168260668821318,Low,Recent,Nissan,Mid,0
-2271,1900,nissan,door,2015,salvage insurance,91898.0,black,florida,usa,15 hours left,11,0.020674871326129773,High,Old,Nissan,Mid,0
+2271,1900,nissan,door,2015,salvage insurance,91898.0,black,florida,usa,15 hours left,11,0.020674871326129773,High,Old,Nissan,Mid,1
 2272,14700,nissan,pathfinder,2017,clean vehicle,31198.0,white,connecticut,usa,3 days left,9,0.4711689477226834,Medium,Old,Nissan,Mid,0
-2273,1900,nissan,door,2013,salvage insurance,144015.0,blue,ohio,usa,15 hours left,13,0.013192978557938008,High,Old,Nissan,Mid,0
+2273,1900,nissan,door,2013,salvage insurance,144015.0,blue,ohio,usa,15 hours left,13,0.013192978557938008,High,Old,Nissan,Mid,1
 2274,18800,nissan,titan,2017,clean vehicle,15621.0,white,missouri,usa,21 hours left,9,1.2034310587632826,Low,Old,Nissan,Mid,0
 2275,7800,nissan,versa,2018,clean vehicle,54815.0,red,california,usa,19 hours left,8,0.14229422066549913,Medium,Old,Nissan,Mid,0
 2276,13500,nissan,door,2016,clean vehicle,53011.0,red,louisiana,usa,8 days left,10,0.25465932241756584,Medium,Old,Nissan,Mid,0
@@ -2232,20 +2232,20 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 2278,3300,nissan,door,2013,clean vehicle,100225.0,gray,louisiana,usa,8 days left,13,0.03292558817073414,High,Old,Nissan,Mid,0
 2279,7200,nissan,sentra,2017,clean vehicle,54117.0,silver,connecticut,usa,3 days left,9,0.13304261059167005,Medium,Old,Nissan,Mid,0
 2280,8000,nissan,door,2017,clean vehicle,54119.0,gray,california,usa,1 days left,9,0.14781966001478197,Medium,Old,Nissan,Mid,0
-2281,1280,nissan,door,2012,salvage insurance,162176.0,black,indiana,usa,15 hours left,14,0.007892611159412246,Very High,Old,Nissan,Mid,0
+2281,1280,nissan,door,2012,salvage insurance,162176.0,black,indiana,usa,15 hours left,14,0.007892611159412246,Very High,Old,Nissan,Mid,1
 2282,14000,nissan,rogue,2018,clean vehicle,37655.0,white,florida,usa,20 hours left,8,0.3717867006585936,Medium,Old,Nissan,Mid,0
 2283,3500,nissan,door,2015,clean vehicle,101178.0,gray,california,usa,6 hours left,11,0.03459215845185266,High,Old,Nissan,Mid,0
-2284,600,nissan,door,2012,salvage insurance,206142.0,silver,kansas,usa,16 hours left,14,0.0029106008935544745,Very High,Old,Nissan,Mid,0
+2284,600,nissan,door,2012,salvage insurance,206142.0,silver,kansas,usa,16 hours left,14,0.0029106008935544745,Very High,Old,Nissan,Mid,1
 2285,12500,nissan,sport,2018,clean vehicle,43187.0,gray,california,usa,2 days left,8,0.28943224969899045,Medium,Old,Nissan,Mid,0
-2286,5800,nissan,door,2013,salvage insurance,105590.0,gray,texas,usa,16 hours left,13,0.05492892386661742,High,Old,Nissan,Mid,0
+2286,5800,nissan,door,2013,salvage insurance,105590.0,gray,texas,usa,16 hours left,13,0.05492892386661742,High,Old,Nissan,Mid,1
 2287,8000,nissan,versa,2018,clean vehicle,53903.0,gray,california,usa,2 days left,8,0.14841199168892846,Medium,Old,Nissan,Mid,0
-2288,2200,nissan,door,2015,salvage insurance,73382.0,tan,texas,usa,16 hours left,11,0.029979695569818623,Medium,Old,Nissan,Mid,0
+2288,2200,nissan,door,2015,salvage insurance,73382.0,tan,texas,usa,16 hours left,11,0.029979695569818623,Medium,Old,Nissan,Mid,1
 2289,8300,nissan,versa,2018,clean vehicle,48977.0,white,california,usa,2 days left,8,0.16946384090816285,Medium,Old,Nissan,Mid,0
 2290,7500,nissan,door,2016,clean vehicle,77504.0,blue,missouri,usa,7 days left,10,0.09676795045480936,Medium,Old,Nissan,Mid,0
 2291,8000,nissan,versa,2018,clean vehicle,50871.0,blue,california,usa,2 days left,8,0.15725743041358703,Medium,Old,Nissan,Mid,0
 2292,3500,nissan,door,2012,clean vehicle,107734.0,silver,missouri,usa,7 days left,14,0.03248712117696199,High,Old,Nissan,Mid,0
 2293,8000,nissan,versa,2018,clean vehicle,53098.0,white,california,usa,2 days left,8,0.15066197103523607,Medium,Old,Nissan,Mid,0
-2294,2000,nissan,door,2012,salvage insurance,159990.0,burgundy,oklahoma,usa,15 days left,14,0.012500703164553007,Very High,Old,Nissan,Mid,0
+2294,2000,nissan,door,2012,salvage insurance,159990.0,burgundy,oklahoma,usa,15 days left,14,0.012500703164553007,Very High,Old,Nissan,Mid,1
 2295,7800,nissan,versa,2018,clean vehicle,51552.0,red,california,usa,2 days left,8,0.15130060326266173,Medium,Old,Nissan,Mid,0
 2296,8000,nissan,versa,2018,clean vehicle,54692.0,white,california,usa,2 days left,8,0.14627100360192347,Medium,Old,Nissan,Mid,0
 2297,18500,nissan,frontier,2019,clean vehicle,18611.0,white,california,usa,8 days left,7,0.9939823769611004,Low,Recent,Nissan,Mid,0
@@ -2261,7 +2261,7 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 2307,7500,nissan,door,2016,clean vehicle,58126.0,black,texas,usa,1 days left,10,0.12902781839764654,Medium,Old,Nissan,Mid,0
 2308,7998,nissan,doors,2015,clean vehicle,62921.0,cayenne red,vermont,usa,11 days left,11,0.12710975493468105,Medium,Old,Nissan,Mid,0
 2309,10999,nissan,doors,2015,clean vehicle,43279.0,super black,massachusetts,usa,11 days left,11,0.2541358595194085,Medium,Old,Nissan,Mid,0
-2310,2900,nissan,door,2012,salvage insurance,117844.0,gray,north carolina,usa,8 days left,14,0.024608596037167467,High,Old,Nissan,Mid,0
+2310,2900,nissan,door,2012,salvage insurance,117844.0,gray,north carolina,usa,8 days left,14,0.024608596037167467,High,Old,Nissan,Mid,1
 2311,8495,nissan,doors,2015,clean vehicle,45043.0,morningsky blue,new hampshire,usa,11 days left,11,0.1885933753663085,Medium,Old,Nissan,Mid,0
 2312,19925,nissan,murano,2016,clean vehicle,42837.0,gray,alabama,usa,21 hours left,10,0.46512442224193473,Medium,Old,Nissan,Mid,0
 2313,9500,nissan,sentra,2018,clean vehicle,42782.0,black,new jersey,usa,2 hours left,8,0.22205081457588294,Medium,Old,Nissan,Mid,0
@@ -2361,17 +2361,17 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 2407,3500,nissan,door,2016,clean vehicle,115716.0,blue,pennsylvania,usa,2 days left,10,0.030246204101385277,High,Old,Nissan,Mid,0
 2408,9300,nissan,versa,2018,clean vehicle,52260.0,black,minnesota,usa,14 hours left,8,0.17795296683951703,Medium,Old,Nissan,Mid,0
 2409,14100,nissan,rogue,2016,clean vehicle,22041.0,silver,pennsylvania,usa,2 days left,10,0.6396878686144633,Low,Old,Nissan,Mid,0
-2410,2425,nissan,door,2012,salvage insurance,161836.0,black,tennessee,usa,2 days left,14,0.014984212510118205,Very High,Old,Nissan,Mid,0
-2411,925,nissan,door,2012,salvage insurance,83720.0,silver,tennessee,usa,2 days left,14,0.011048601903942858,High,Old,Nissan,Mid,0
+2410,2425,nissan,door,2012,salvage insurance,161836.0,black,tennessee,usa,2 days left,14,0.014984212510118205,Very High,Old,Nissan,Mid,1
+2411,925,nissan,door,2012,salvage insurance,83720.0,silver,tennessee,usa,2 days left,14,0.011048601903942858,High,Old,Nissan,Mid,1
 2412,11000,nissan,rogue,2016,clean vehicle,37605.0,black,pennsylvania,usa,2 days left,10,0.29250651491783225,Medium,Old,Nissan,Mid,0
 2413,11000,nissan,rogue,2016,clean vehicle,63738.0,green,pennsylvania,usa,18 hours left,10,0.17257879791022765,Medium,Old,Nissan,Mid,0
-2414,2100,nissan,door,2013,salvage insurance,155704.0,silver,tennessee,usa,2 days left,13,0.013487042805304904,Very High,Old,Nissan,Mid,0
-2415,800,nissan,door,2012,salvage insurance,234792.0,black,florida,usa,2 days left,14,0.0034072566047539748,Very High,Old,Nissan,Mid,0
+2414,2100,nissan,door,2013,salvage insurance,155704.0,silver,tennessee,usa,2 days left,13,0.013487042805304904,Very High,Old,Nissan,Mid,1
+2415,800,nissan,door,2012,salvage insurance,234792.0,black,florida,usa,2 days left,14,0.0034072566047539748,Very High,Old,Nissan,Mid,1
 2416,20400,nissan,pathfinder,2018,clean vehicle,24143.0,silver,south carolina,usa,21 hours left,8,0.8449304174950298,Low,Old,Nissan,Mid,0
-2417,375,nissan,door,2017,salvage insurance,1.0,red,north carolina,usa,2 days left,9,187.5,Low,Old,Nissan,Mid,0
+2417,375,nissan,door,2017,salvage insurance,1.0,red,north carolina,usa,2 days left,9,187.5,Low,Old,Nissan,Mid,1
 2418,3000,nissan,door,2015,clean vehicle,132655.0,beige,pennsylvania,usa,2 days left,11,0.022614883608732362,High,Old,Nissan,Mid,0
 2419,15100,nissan,rogue,2017,clean vehicle,28079.0,gray,south carolina,usa,21 hours left,9,0.5377492877492878,Low,Old,Nissan,Mid,0
-2420,4000,nissan,door,2015,salvage insurance,74906.0,silver,north carolina,usa,8 days left,11,0.05339954877381286,Medium,Old,Nissan,Mid,0
+2420,4000,nissan,door,2015,salvage insurance,74906.0,silver,north carolina,usa,8 days left,11,0.05339954877381286,Medium,Old,Nissan,Mid,1
 2421,19500,nissan,door,2017,clean vehicle,53155.0,gray,south carolina,usa,21 hours left,9,0.36684475882308676,Medium,Old,Nissan,Mid,0
 2422,22600,nissan,titan,2017,clean vehicle,94258.0,gray,south carolina,usa,21 hours left,9,0.23976490308617746,High,Old,Nissan,Mid,0
 2423,6500,nissan,door,2014,clean vehicle,65620.0,white,pennsylvania,usa,2 hours left,12,0.09905365660383109,Medium,Old,Nissan,Mid,0
@@ -2380,23 +2380,23 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 2426,14200,nissan,rogue,2018,clean vehicle,37830.0,black,ohio,usa,21 hours left,8,0.3753535460336761,Medium,Old,Nissan,Mid,0
 2427,22000,nissan,frontier,2018,clean vehicle,13875.0,white,ohio,usa,21 hours left,8,1.585471317382531,Low,Old,Nissan,Mid,0
 2428,16200,nissan,frontier,2018,clean vehicle,6024.0,silver,ohio,usa,21 hours left,8,2.6887966804979255,Low,Old,Nissan,Mid,0
-2429,4800,nissan,door,2016,salvage insurance,76789.0,gray,texas,usa,17 hours left,10,0.06250813908060945,Medium,Old,Nissan,Mid,0
+2429,4800,nissan,door,2016,salvage insurance,76789.0,gray,texas,usa,17 hours left,10,0.06250813908060945,Medium,Old,Nissan,Mid,1
 2430,16000,nissan,sport,2018,clean vehicle,30409.0,black,ohio,usa,21 hours left,8,0.5261427162117724,Medium,Old,Nissan,Mid,0
 2431,14300,nissan,sport,2018,clean vehicle,44864.0,gray,ohio,usa,21 hours left,8,0.3187339797169286,Medium,Old,Nissan,Mid,0
 2432,16800,nissan,pathfinder,2019,clean vehicle,42397.0,silver,florida,usa,21 hours left,7,0.39624510590122175,Medium,Recent,Nissan,Mid,0
 2433,11900,nissan,sentra,2018,clean vehicle,16778.0,gray,ohio,usa,21 hours left,8,0.7092198581560284,Low,Old,Nissan,Mid,0
-2434,3000,nissan,door,2015,salvage insurance,99767.0,gray,south carolina,usa,2 days left,11,0.03006976184748617,High,Old,Nissan,Mid,0
+2434,3000,nissan,door,2015,salvage insurance,99767.0,gray,south carolina,usa,2 days left,11,0.03006976184748617,High,Old,Nissan,Mid,1
 2435,15000,nissan,rogue,2019,clean vehicle,34692.0,gray,florida,usa,21 hours left,7,0.43236387743925286,Medium,Recent,Nissan,Mid,0
 2436,15200,nissan,rogue,2019,clean vehicle,30721.0,gray,florida,usa,21 hours left,7,0.4947594557645987,Medium,Recent,Nissan,Mid,0
 2437,18000,nissan,door,2017,clean vehicle,53376.0,black,ohio,usa,21 hours left,9,0.3372238979335669,Medium,Old,Nissan,Mid,0
 2438,22700,nissan,nvp,2016,clean vehicle,21282.0,white,ohio,usa,21 hours left,10,1.0665789597331203,Low,Old,Nissan,Mid,0
 2439,3800,nissan,door,2015,clean vehicle,81699.0,blue,texas,usa,5 days left,11,0.046511627906976744,High,Old,Nissan,Mid,0
-2440,5475,nissan,door,2018,salvage insurance,33048.0,black,connecticut,usa,2 days left,8,0.16566310629671094,Medium,Old,Nissan,Mid,0
+2440,5475,nissan,door,2018,salvage insurance,33048.0,black,connecticut,usa,2 days left,8,0.16566310629671094,Medium,Old,Nissan,Mid,1
 2441,11400,nissan,sentra,2018,clean vehicle,10372.0,blue,illinois,usa,21 hours left,8,1.099007037501205,Low,Old,Nissan,Mid,0
 2442,28100,nissan,pathfinder,2018,clean vehicle,8889.0,silver,illinois,usa,21 hours left,8,3.1608548931383575,Low,Old,Nissan,Mid,0
 2443,3500,nissan,sentra,2017,clean vehicle,127780.0,gray,illinois,usa,21 hours left,9,0.027390613628004164,High,Old,Nissan,Mid,0
 2444,15200,nissan,murano,2016,clean vehicle,59640.0,orange,illinois,usa,21 hours left,10,0.2548582351067219,Medium,Old,Nissan,Mid,0
-2445,1950,nissan,door,2015,salvage insurance,83975.0,blue,california,usa,2 days left,11,0.023220920262932265,High,Old,Nissan,Mid,0
+2445,1950,nissan,door,2015,salvage insurance,83975.0,blue,california,usa,2 days left,11,0.023220920262932265,High,Old,Nissan,Mid,1
 2446,13400,nissan,rogue,2016,clean vehicle,46178.0,black,illinois,usa,21 hours left,10,0.29017518785595187,Medium,Old,Nissan,Mid,0
 2447,12500,nissan,altima,2018,clean vehicle,34460.0,gray,florida,usa,2 days left,8,0.3627288819244944,Medium,Old,Nissan,Mid,0
 2448,16500,nissan,pathfinder,2018,clean vehicle,30594.0,black,florida,usa,21 hours left,8,0.5393038078117339,Medium,Old,Nissan,Mid,0
@@ -2404,7 +2404,7 @@ id,price,brand,model,year,title_status,mileage,color,state,country,condition,car
 2450,16500,nissan,pathfinder,2018,clean vehicle,40419.0,black,florida,usa,21 hours left,8,0.4082137555665512,Medium,Old,Nissan,Mid,0
 2451,13900,nissan,rogue,2018,clean vehicle,35493.0,black,florida,usa,2 days left,8,0.39161548430720683,Medium,Old,Nissan,Mid,0
 2452,13900,nissan,rogue,2018,clean vehicle,37073.0,gray,florida,usa,21 hours left,8,0.3749258240276204,Medium,Old,Nissan,Mid,0
-2453,1500,nissan,door,2013,salvage insurance,98384.0,black,maryland,usa,3 days left,13,0.015246226558926665,High,Old,Nissan,Mid,0
+2453,1500,nissan,door,2013,salvage insurance,98384.0,black,maryland,usa,3 days left,13,0.015246226558926665,High,Old,Nissan,Mid,1
 2454,16500,nissan,pathfinder,2018,clean vehicle,34640.0,white,florida,usa,21 hours left,8,0.47631419416298604,Medium,Old,Nissan,Mid,0
 2455,13900,nissan,rogue,2018,clean vehicle,38760.0,white,florida,usa,21 hours left,8,0.35860787905368796,Medium,Old,Nissan,Mid,0
 2456,16500,nissan,pathfinder,2018,clean vehicle,34841.0,black,florida,usa,2 days left,8,0.47356638539693474,Medium,Old,Nissan,Mid,0

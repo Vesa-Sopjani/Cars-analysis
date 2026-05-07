@@ -3,13 +3,12 @@ from feature_engineering import run_feature_engineering
 from data_validation import generate_validation_report
 from feature_selection import run_feature_selection
 
-INPUT_PATH = "../data/clean_no_encoding.csv"
-OUTPUT_PATH = "../data/featured_cars.csv"
+INPUT_PATH = "../../data/clean_no_encoding.csv"
+OUTPUT_PATH = "../../data/featured_cars.csv"
 
 def main():
     print("=" * 60)
     print("Feature Engineering")
-    print(" Car Price Analysis Project")
     print("=" * 60)
 
     print("\n[STEP 1/3] Running Feature Engineering...")

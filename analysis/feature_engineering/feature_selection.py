@@ -12,7 +12,7 @@ def prepare_features(df: pd.DataFrame) -> pd.DataFrame:
     le = LabelEncoder()
     for col in cat_cols:
         if col in df.columns:
-            df_work[col] = le.fit_transform(df[col].astype(str))
+            df_work[col] = le.fit_transform(df[col].fillna("Unknown").astype(str))
             print(f"[ENCODE] '{col}' encoded for scoring.")
 
     return df_work
@@ -103,5 +103,5 @@ def run_feature_selection(df: pd.DataFrame) -> dict:
     }
 
 if __name__ =="__main__":
-    df = pd.read_csv("../data/featured_cars.csv")
+    df = pd.read_csv("../../data/featured_cars.csv")
     results = run_feature_selection(df)
