@@ -7,7 +7,6 @@ def load_data(filepath: str) -> pd.DataFrame:
     print(f"[INFO] Dataset loaded: {df.shape}")
     return df
 
-# Feature 1: Car Age
 
 def add_car_age(df: pd.DataFrame) -> pd.DataFrame:
     current_year = datetime.now().year
@@ -15,7 +14,6 @@ def add_car_age(df: pd.DataFrame) -> pd.DataFrame:
     print(f"[FEATURE] 'car_age' created. Range {df['car_age'].min()} - {df['car_age'].max()} years")
     return df
 
-# Feature 2: Price per Mile 
 
 def add_price_per_mile(df: pd.DataFrame) -> pd.DataFrame:
     df["price_per_mile"] = df["price"] / (df["mileage"] + 1)
@@ -28,7 +26,6 @@ def add_price_per_mile(df: pd.DataFrame) -> pd.DataFrame:
     print(f"[FEATURE] 'price_per_mile' created.")
     return df
 
-# Feature 3: Mileage Category (Low / Medium / High)
 
 def add_mileage_category(df: pd.DataFrame) -> pd.DataFrame:
     bins = [0, 30000, 80000, 150000, float("inf")]
@@ -37,8 +34,6 @@ def add_mileage_category(df: pd.DataFrame) -> pd.DataFrame:
     print(f"[FEATURE] 'mileage_category' created.")
     print(df["mileage_category"].value_counts().to_string())
     return df
-
-# Feature 4: Age Group (New / Recent / Old / Classic)
 
 def add_age_group(df: pd.DataFrame) -> pd.DataFrame:
     if "car_age" not in df.columns:
@@ -55,7 +50,6 @@ def add_age_group(df: pd.DataFrame) -> pd.DataFrame:
     print(df["age_group"].value_counts().to_string())
     return df
 
-# Feature 5: Brand Tier
 
 def add_brand_tier(df: pd.DataFrame) -> pd.DataFrame:
     luxury_brands = [
@@ -104,8 +98,6 @@ def add_brand_tier(df: pd.DataFrame) -> pd.DataFrame:
     print(df["brand_tier"].value_counts().to_string())
 
     return df
-
-#Feature 6: Salvage Flag
 
 def add_salvage_flag(df: pd.DataFrame) -> pd.DataFrame:
     col = "title_status"
